@@ -27,4 +27,7 @@ kpi1 = pd.read_csv('kpi1.csv')
 kpi2 = pd.read_csv('kpi2.csv')
 
 combined_df = pd.merge(kpi1, kpi2, left_on='District', right_on='District')
+
+#merged CSV file
+combined_df.to_csv('combined_kpi.csv')
 print(combined_df)
