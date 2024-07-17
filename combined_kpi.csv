@@ -1,4 +1,4 @@
-District,KPI_1,District_y,KPI_2
-Kathmandu,0.8,Kathmandu,0.35
-Kavre palanchowk,0.75,Kavrepalanchowk,0.65
-Dhanusa,0.85,Dhanusha,0.6
+,District,KPI_1,KPI_2
+0,Kathmandu,0.8,0.35
+1,Kavre palanchowk,0.75,0.65
+2,Dhanusa,0.85,0.6

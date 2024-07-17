@@ -33,5 +33,6 @@ combined_df.rename(columns={'District_x': 'District'}, inplace=True)
 combined_df.fillna('', inplace=True)
 
 #merged CSV
+combined_df.to_csv('combined_kpi.csv')
 print(combined_df[['District', 'KPI_1', 'KPI_2']].to_string(index=False))
 
