@@ -1,0 +1,7 @@
+State    Postal
+Abbr.    FIPS
+Code    State    Postal
+Abbr.    FIPS
+Code
+Alabama    AL    01    Nebraska    NE    31
+Alaska    AK    02    Nevada    NV    32

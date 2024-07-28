@@ -1,6 +1,6 @@
-
 import requests
 from bs4 import BeautifulSoup
+from tabulate import tabulate
 from app.parser import parse_states_data
 
 def main():
@@ -13,8 +13,7 @@ def main():
         soup = BeautifulSoup(response.content, 'html.parser')
         title_tag = soup.find('title')
         
-        if title_tag:
-            title = title_tag.get_text()
+        if (title := title_tag.get_text() if title_tag else None):
             print(f'Title: {title}')
         else:
             print('Title tag not found in the HTML content.')
@@ -22,8 +21,9 @@ def main():
         print(f'Failed to retrieve the webpage. Status code: {response.status_code}')
 
     data = parse_states_data('states_data.txt')
-    for entry in data:
-        print(entry)
+    headers = ["State Abbr.", "Postal" , "FIPS code ", "State Abbr.", "Postal",  "FIPS Code"]
+    table = tabulate(data, headers, tablefmt="grid")
+    print(table)
 
 if __name__ == '__main__':
     main()
