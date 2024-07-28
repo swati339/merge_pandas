@@ -1,0 +1,2 @@
+[console_scripts]
+my_project = app.__init__:main
