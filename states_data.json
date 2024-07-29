@@ -1,10 +1,5 @@
 [
     {
-        "State": "Code",
-        "Abbr. Postal": "State",
-        "FIPS Code": "Postal"
-    },
-    {
         "State": "Alabama",
         "Abbr. Postal": "AL",
         "FIPS Code": "01"

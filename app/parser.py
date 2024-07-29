@@ -2,8 +2,8 @@ def parse_states_data(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()
 
-    # Remove headers and filter out empty lines
-    lines = [line for line in lines if line.strip()][2:]
+    # Skip the first three lines which are headers
+    lines = lines[3:]
     data = []
 
     for line in lines:
