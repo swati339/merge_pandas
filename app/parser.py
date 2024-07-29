@@ -1,15 +1,21 @@
-def parse_states_data(file_path):
-    states_data = []
-    with open(file_path, 'r') as file:
+def parse_states_data(filename):
+    with open(filename, 'r') as file:
         lines = file.readlines()
-    
-    for line in lines[2:]:  # Skip the first two header lines
+
+    # Remove headers and filter out empty lines
+    lines = [line for line in lines if line.strip()][2:]
+    data = []
+
+    for line in lines:
         parts = line.split()
         if len(parts) == 6:
-            states_data.append(parts)
-    return states_data
+            state1, postal1, fips1, state2, postal2, fips2 = parts
+            data.append({"State": state1, "Abbr. Postal": postal1, "FIPS Code": fips1})
+            data.append({"State": state2, "Abbr. Postal": postal2, "FIPS Code": fips2})
+        elif len(parts) == 3:
+            state, postal, fips = parts
+            data.append({"State": state, "Abbr. Postal": postal, "FIPS Code": fips})
+        else:
+            print(f"Unexpected format in line: {line}")
 
-if __name__ == '__main__':
-    data = parse_states_data('states_data.txt')
-    for entry in data:
-        print(entry)
+    return data

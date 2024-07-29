@@ -1,0 +1,142 @@
+[
+    {
+        "State": "Code",
+        "Abbr. Postal": "State",
+        "FIPS Code": "Postal"
+    },
+    {
+        "State": "Alabama",
+        "Abbr. Postal": "AL",
+        "FIPS Code": "01"
+    },
+    {
+        "State": "Nebraska",
+        "Abbr. Postal": "NE",
+        "FIPS Code": "31"
+    },
+    {
+        "State": "Alaska",
+        "Abbr. Postal": "AK",
+        "FIPS Code": "02"
+    },
+    {
+        "State": "Nevada",
+        "Abbr. Postal": "NV",
+        "FIPS Code": "32"
+    },
+    {
+        "State": "Florida",
+        "Abbr. Postal": "FL",
+        "FIPS Code": "12"
+    },
+    {
+        "State": "Oklahoma",
+        "Abbr. Postal": "OK",
+        "FIPS Code": "40"
+    },
+    {
+        "State": "Georgia",
+        "Abbr. Postal": "GA",
+        "FIPS Code": "13"
+    },
+    {
+        "State": "Oregon",
+        "Abbr. Postal": "OR",
+        "FIPS Code": "41"
+    },
+    {
+        "State": "Hawaii",
+        "Abbr. Postal": "HI",
+        "FIPS Code": "15"
+    },
+    {
+        "State": "Pennsylvania",
+        "Abbr. Postal": "PA",
+        "FIPS Code": "42"
+    },
+    {
+        "State": "Kansas",
+        "Abbr. Postal": "KS",
+        "FIPS Code": "20"
+    },
+    {
+        "State": "Tennessee",
+        "Abbr. Postal": "TN",
+        "FIPS Code": "47"
+    },
+    {
+        "State": "Kentucky",
+        "Abbr. Postal": "KY",
+        "FIPS Code": "21"
+    },
+    {
+        "State": "Texas",
+        "Abbr. Postal": "TX",
+        "FIPS Code": "48"
+    },
+    {
+        "State": "Louisiana",
+        "Abbr. Postal": "LA",
+        "FIPS Code": "22"
+    },
+    {
+        "State": "Utah",
+        "Abbr. Postal": "UT",
+        "FIPS Code": "49"
+    },
+    {
+        "State": "Maine",
+        "Abbr. Postal": "ME",
+        "FIPS Code": "23"
+    },
+    {
+        "State": "Vermont",
+        "Abbr. Postal": "VT",
+        "FIPS Code": "50"
+    },
+    {
+        "State": "Maryland",
+        "Abbr. Postal": "MD",
+        "FIPS Code": "24"
+    },
+    {
+        "State": "Virginia",
+        "Abbr. Postal": "VA",
+        "FIPS Code": "51"
+    },
+    {
+        "State": "Michigan",
+        "Abbr. Postal": "MI",
+        "FIPS Code": "26"
+    },
+    {
+        "State": "Washington",
+        "Abbr. Postal": "WA",
+        "FIPS Code": "53"
+    },
+    {
+        "State": "Mississippi",
+        "Abbr. Postal": "MS",
+        "FIPS Code": "28"
+    },
+    {
+        "State": "Wisconsin",
+        "Abbr. Postal": "WI",
+        "FIPS Code": "55"
+    },
+    {
+        "State": "Missouri",
+        "Abbr. Postal": "MO",
+        "FIPS Code": "29"
+    },
+    {
+        "State": "Wyoming",
+        "Abbr. Postal": "WY",
+        "FIPS Code": "56"
+    },
+    {
+        "State": "Montana",
+        "Abbr. Postal": "MT",
+        "FIPS Code": "30"
+    }
+]

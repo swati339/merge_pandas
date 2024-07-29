@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from tabulate import tabulate
 from app.parser import parse_states_data
+import json
 
 def main():
     URL = 'https://pastebin.com/raw/G0VH1LpS'
@@ -21,9 +22,14 @@ def main():
         print(f'Failed to retrieve the webpage. Status code: {response.status_code}')
 
     data = parse_states_data('states_data.txt')
-    headers = ["State Abbr.", "Postal" , "FIPS code ", "State Abbr.", "Postal",  "FIPS Code"]
-    table = tabulate(data, headers, tablefmt="grid")
+    headers = ["State", "Abbr. Postal", "FIPS Code"]
+    table = tabulate([[state["State"], state["Abbr. Postal"], state["FIPS Code"]] for state in data], headers, tablefmt="grid")
     print(table)
+
+    # Save to JSON file in the required dictionary format
+    with open('states_data.json', 'w') as json_file:
+        json.dump(data, json_file, indent=4)
+    print('Data has been saved to states_data.json')
 
 if __name__ == '__main__':
     main()
