@@ -1,35 +1,69 @@
 import requests
 from bs4 import BeautifulSoup
-from tabulate import tabulate
-from app.parser import parse_states_data
 import json
+import re
+
+def fetch_website_data(url, user_agent):
+    response = requests.get(url, headers={'User-Agent': user_agent})
+    if response.status_code == 200:
+        return response.content.decode('utf-8')
+    else:
+        print(f'Failed to retrieve the webpage. Status code: {response.status_code}')
+        return None
+
+def parse_states_data(content):
+    lines = content.split('\n')
+    lines = [line.strip() for line in lines if line.strip()]
+
+    # Skip the first two lines which are headers
+    lines = lines[2:]
+
+    state_data = []
+
+    for line in lines:
+        # Split by multiple spaces or tabs
+        parts = re.split(r'\s{2,}|\t', line)
+        
+        if len(parts) == 6:  # Two states in one line
+            state_data.append({
+                "State": parts[0].strip(),
+                "Postal": parts[1].strip(),
+                "FIPS": parts[2].strip()
+            })
+            state_data.append({
+                "State": parts[3].strip(),
+                "Postal": parts[4].strip(),
+                "FIPS": parts[5].strip()
+            })
+        elif len(parts) == 3:  # One state in one line
+            state_data.append({
+                "State": parts[0].strip(),
+                "Postal": parts[1].strip(),
+                "FIPS": parts[2].strip()
+            })
+        else:
+            print(f"Unexpected format in line: {line}")
+
+    return state_data
 
 def main():
     URL = 'https://pastebin.com/raw/G0VH1LpS'
     USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+    
+    content = fetch_website_data(URL, USER_AGENT)
 
-    response = requests.get(URL, headers={'User-Agent': USER_AGENT})
+    if content:
+        state_data = parse_states_data(content)
 
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.content, 'html.parser')
-        title_tag = soup.find('title')
-        
-        if (title := title_tag.get_text() if title_tag else None):
-            print(f'Title: {title}')
-        else:
-            print('Title tag not found in the HTML content.')
-    else:
-        print(f'Failed to retrieve the webpage. Status code: {response.status_code}')
+        # Prepare the data to be stored in JSON
+        website_data = {
+           
+            'states info': state_data
+        }
 
-    data = parse_states_data('states_data.txt')
-    headers = ["State", "Abbr. Postal", "FIPS Code"]
-    table = tabulate([[state["State"], state["Abbr. Postal"], state["FIPS Code"]] for state in data], headers, tablefmt="grid")
-    print(table)
-
-    # Save to JSON file in the required dictionary format
-    with open('states_data.json', 'w') as json_file:
-        json.dump(data, json_file, indent=4)
-    print('Data has been saved to states_data.json')
+        with open('states_data.json', 'w', encoding='utf-8') as json_file:
+            json.dump(website_data, json_file, ensure_ascii=False, indent=4)
+        print('Website data has been saved to states_data.json')
 
 if __name__ == '__main__':
     main()

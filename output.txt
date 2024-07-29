@@ -1,57 +1,45 @@
-+--------------+----------------+-------------+
-| State        | Abbr. Postal   |   FIPS Code |
-+==============+================+=============+
-| Alabama      | AL             |          01 |
-+--------------+----------------+-------------+
-| Nebraska     | NE             |          31 |
-+--------------+----------------+-------------+
-| Alaska       | AK             |          02 |
-+--------------+----------------+-------------+
-| Nevada       | NV             |          32 |
-+--------------+----------------+-------------+
-| Florida      | FL             |          12 |
-+--------------+----------------+-------------+
-| Oklahoma     | OK             |          40 |
-+--------------+----------------+-------------+
-| Georgia      | GA             |          13 |
-+--------------+----------------+-------------+
-| Oregon       | OR             |          41 |
-+--------------+----------------+-------------+
-| Hawaii       | HI             |          15 |
-+--------------+----------------+-------------+
-| Pennsylvania | PA             |          42 |
-+--------------+----------------+-------------+
-| Kansas       | KS             |          20 |
-+--------------+----------------+-------------+
-| Tennessee    | TN             |          47 |
-+--------------+----------------+-------------+
-| Kentucky     | KY             |          21 |
-+--------------+----------------+-------------+
-| Texas        | TX             |          48 |
-+--------------+----------------+-------------+
-| Louisiana    | LA             |          22 |
-+--------------+----------------+-------------+
-| Utah         | UT             |          49 |
-+--------------+----------------+-------------+
-| Maine        | ME             |          23 |
-+--------------+----------------+-------------+
-| Vermont      | VT             |          50 |
-+--------------+----------------+-------------+
-| Maryland     | MD             |          24 |
-+--------------+----------------+-------------+
-| Virginia     | VA             |          51 |
-+--------------+----------------+-------------+
-| Michigan     | MI             |          26 |
-+--------------+----------------+-------------+
-| Washington   | WA             |          53 |
-+--------------+----------------+-------------+
-| Mississippi  | MS             |          28 |
-+--------------+----------------+-------------+
-| Wisconsin    | WI             |          55 |
-+--------------+----------------+-------------+
-| Missouri     | MO             |          29 |
-+--------------+----------------+-------------+
-| Wyoming      | WY             |          56 |
-+--------------+----------------+-------------+
-| Montana      | MT             |          30 |
-+--------------+----------------+-------------+
+Title tag not found in the HTML content.
+Unexpected format in line: Abbr.    FIPS
+Unexpected format in line: Code
+Unexpected format in line: Alabama    AL 
+   01    Nebraska    NE    31
+Unexpected format in line: Alaska    AK  
+  02    Nevada    NV    32
+Unexpected format in line: Arizona    AZ 
+   04    New Hampshire    NH    33       
+Unexpected format in line: Arkansas    AR    05    New Jersey    NJ    34
+Unexpected format in line: California    
+CA    06    New Mexico    NM    35       
+Unexpected format in line: Colorado    CO    08    New York    NY    36
+Unexpected format in line: Connecticut   
+ CT    09    North Carolina    NC    37  
+Unexpected format in line: Delaware    DE    10    North Dakota    ND    38       
+Unexpected format in line: District of Columbia    DC    11    Ohio    OH    39   
+Unexpected format in line: Florida    FL 
+   12    Oklahoma    OK    40
+Unexpected format in line: Georgia    GA 
+   13    Oregon    OR    41
+Unexpected format in line: Hawaii    HI  
+  15    Pennsylvania    PA    42
+Unexpected format in line: Idaho    ID   
+ 16    Puerto Rico    PR    72
+Unexpected format in line: Illinois    IL    17    Rhode Island    RI    44       
+Unexpected format in line: Indiana    IN 
+   18    South Carolina    SC    45      
+Unexpected format in line: Iowa    IA    
+19    South Dakota    SD    46
+Unexpected format in line: Kansas    KS  
+  20    Tennessee    TN    47
+Unexpected format in line: Kentucky    KY    21    Texas    TX    48
+Unexpected format in line: Louisiana    LA    22    Utah    UT    49
+Unexpected format in line: Maine    ME   
+ 23    Vermont    VT    50
+Unexpected format in line: Maryland    MD    24    Virginia    VA    51
+Unexpected format in line: Massachusetts 
+   MA    25    Virgin Islands    VI    78Unexpected format in line: Michigan    MI    26    Washington    WA    53
+Unexpected format in line: Minnesota    MN    27    West Virginia    WV    54     
+Unexpected format in line: Mississippi   
+ MS    28    Wisconsin    WI    55       
+Unexpected format in line: Missouri    MO    29    Wyoming    WY    56
+Unexpected format in line: Montana    MT 
+   30
