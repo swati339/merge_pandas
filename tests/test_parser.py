@@ -1,4 +1,3 @@
-# tests/test_parser.py
 import os
 import pytest
 from app.parser import parse_states_data
@@ -19,20 +18,24 @@ Alaska    AK    02    Nevada    NV    32"""
     
     expected_output = [
         {
-            'state_1': 'Alabama',
-            'postal_1': 'AL',
-            'fips_1': '01',
-            'state_2': 'Nebraska',
-            'postal_2': 'NE',
-            'fips_2': '31'
+            'State': 'Alabama',
+            'Abbr. Postal': 'AL',
+            'FIPS Code': '01'
         },
         {
-            'state_1': 'Alaska',
-            'postal_1': 'AK',
-            'fips_1': '02',
-            'state_2': 'Nevada',
-            'postal_2': 'NV',
-            'fips_2': '32'
+            'State': 'Nebraska',
+            'Abbr. Postal': 'NE',
+            'FIPS Code': '31'
+        },
+        {
+            'State': 'Alaska',
+            'Abbr. Postal': 'AK',
+            'FIPS Code': '02'
+        },
+        {
+            'State': 'Nevada',
+            'Abbr. Postal': 'NV',
+            'FIPS Code': '32'
         }
     ]
 
