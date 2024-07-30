@@ -1,0 +1,84 @@
+('I',)
+('reside',)
+('in',)
+('Bengaluru.',)
+All words: ['i', 'am', 'learning', 'python', 'and', 'enjoying', 'it', 'it', 'is', 'very', 'important', 'for', 'the', 'data', 'scientists']   
+Stopwords: ['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', "you're", "you've", "you'll", "you'd", 'your', 'yours', 'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', "she's", 'her', 'hers', 'herself', 'it', "it's", 'its', 'itself', 'they', 'them', 
+'their', 'theirs', 'themselves', 'what', 'which', 'who', 'whom', 'this', 'that', "that'll", 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', "don't", 'should', "should've", 'now', 'd', 'll', 'm', 'o', 're', 've', 'y', 'ain', 'aren', "aren't", 'couldn', "couldn't", 'didn', "didn't", 'doesn', "doesn't", 'hadn', "hadn't", 'hasn', "hasn't", 'haven', "haven't", 'isn', "isn't", 'ma', 'mightn', "mightn't", 'mustn', "mustn't", 'needn', "needn't", 'shan', "shan't", 'shouldn', "shouldn't", 'wasn', "wasn't", 'weren', "weren't", 'won', "won't", 'wouldn', "wouldn't"]
+Filtered words: ['learning', 'python', 'enjoying', 'important', 'data', 'scientists']
+
+#stemming
+['learn', 'python', 'enjoy', 'import', 'data', 'scientist']
+
+#Lemmatization
+['i', 'am', 'learning', 'python', 'and', 'enjoying', 'it', 'it', 'is', 'very', 'important', 'for', 'the', 'data', 'scientist']
+
+
+#regexpParser
+NP: The quick brown
+NP: fox
+VP: jumps
+P: over
+NP: the lazy dog
+
+#pos
+[('Natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), ('exciting', 'JJ'), ('area', 'NN'), ('.', '.')]
+[('Huge', 'JJ'), ('budgets', 'NNS'), ('allocated', 'VBN'), ('.', '.')]
+
+#ngrams
+Data columns (total 2 columns):
+ #   Column                                                                                                                           Non-Null Count  Dtype
+---  ------                                                                                                                           --------------  -----
+ 0   neutral                                                                                                                          4845 non-null   object
+ 1   According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .  4845 non-null   object
+dtypes: object(2)
+memory usage: 75.8+ KB
+
+None
+neutral 
+
+dtype: int64
+
+#print(df['neutral'].value_counts())
+neutral     2878
+positive    1363
+negative     604
+Name: count, dtype: int64
+
+#splitting dataset
+Shape of texts: (4846,)
+Shape of sentiments: (4846,)
+Shape of x_train: (2907,)
+Shape of y_train: (2907,)
+Shape of x_test: (1939,)
+Shape of y_test: (1939,)
+
+#creating two dataframes
+
+                                                news sentiment
+0  Exel Composites ' long-term growth prospects r...  positive
+1  The Samsung Mobile Applications Store was laun...   neutral
+2  Altogether CapMan employs approximately 150 pe...   neutral
+3  The segments through which the company operate...   neutral
+4  UK 's Sarantel to outsource part of its proces...   neutral
+
+                                                news sentiment
+0  The company was supposed to deliver machinery ...   neutral
+1  UNC Charlotte would also deploy SSH Tectia Con...   neutral
+2  In 2009 , Lee & Man had a combined annual prod...   neutral
+3  `` That 's a very high figure on the European ...   neutral
+4  In Finland , the corresponding service is Alma...   neutral
+Train DataFrame after removing punctuation:
+                                                news sentiment
+0  Exel Composites  longterm growth prospects rem...  positive
+1  The Samsung Mobile Applications Store was laun...   neutral
+2  Altogether CapMan employs approximately 150 pe...   neutral
+3  The segments through which the company operate...   neutral
+4  UK s Sarantel to outsource part of its process...   neutral
+Test DataFrame after removing punctuation:
+                                                news sentiment
+0  The company was supposed to deliver machinery ...   neutral
+1  UNC Charlotte would also deploy SSH Tectia Con...   neutral
+2  In 2009  Lee  Man had a combined annual produc...   neutral
+3   That s a very high figure on the European sca...   neutral
+4  In Finland  the corresponding service is Alma ...   neutr
