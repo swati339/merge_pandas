@@ -2,9 +2,11 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-#test and train set
-from sklearn.model_selection import train_test_split
 import string
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.util import ngrams
+from sklearn.model_selection import train_test_split
 
 # Set Seaborn style
 sns.set_style('whitegrid')
@@ -61,13 +63,12 @@ df_test = pd.concat([df3, df4], axis=1)
 # Display the first few rows of the concatenated DataFrame
 print(df_test.head())
 
-
+# Function to remove punctuation
 def remove_punctuation(text):
     if isinstance(text, float):
         return text
     return ''.join([char for char in text if char not in string.punctuation])
 
-# Assuming df_train and df_test DataFrames are already defined and contain a 'news' column
 # Apply the function to remove punctuation from the 'news' column in the train dataset
 df_train['news'] = df_train['news'].apply(remove_punctuation)
 
@@ -82,5 +83,25 @@ print(df_train.head())
 print("Test DataFrame after removing punctuation:")
 print(df_test.head())
 
+# Function to compute N-grams
+def compute_ngrams(text, n):
+    tokens = word_tokenize(text)
+    
+    # Generate N-grams
+    n_grams = ngrams(tokens, n)
+    
+    return list(n_grams)
 
+#Compute bigrams for the cleaned text in train dataset
+df_train['bigrams'] = df_train['news'].apply(lambda x: compute_ngrams(x, 2))
 
+#Compute bigrams for the cleaned text in test dataset
+df_test['bigrams'] = df_test['news'].apply(lambda x: compute_ngrams(x, 2))
+
+# Display the first few rows of the train dataset with bigrams
+print("Train DataFrame with bigrams:")
+print(df_train.head())
+
+# Display the first few rows of the test dataset with bigrams
+print("Test DataFrame with bigrams:")
+print(df_test.head())
