@@ -14,7 +14,20 @@ sns.set_style('whitegrid')
 # Ensure NLTK data packages are downloaded
 nltk.download('punkt')
 
-def process_text_data(file_path, test_size=0.4, random_state=42, ngram_n=2):
+# Function to remove punctuation
+def remove_punctuation(text):
+    if isinstance(text, float):
+        return text
+    return ''.join([char for char in text if char not in string.punctuation])
+
+# Function to compute N-grams
+def compute_ngrams(text, n):
+    tokens = word_tokenize(text)
+    n_grams = ngrams(tokens, n)
+    return list(n_grams)
+
+# Main function to process text data
+def process_text_data(file_path, test_size=0.4, random_state=42):
     # Load the CSV file into a DataFrame with proper column names
     df = pd.read_csv(file_path, encoding="ISO-8859-1", names=['sentiment', 'text'])
 
@@ -52,46 +65,33 @@ def process_text_data(file_path, test_size=0.4, random_state=42, ngram_n=2):
     print(f'Shape of y_test: {y_test.shape}')
 
     # Create DataFrames from training data
-    df_train = pd.DataFrame({'news': x_train, 'sentiment': y_train})
-    df_test = pd.DataFrame({'news': x_test, 'sentiment': y_test})
-
-    # Function to remove punctuation
-    def remove_punctuation(text):
-        if isinstance(text, float):
-            return text
-        return ''.join([char for char in text if char not in string.punctuation])
+    df1 = pd.DataFrame({'news': x_train, 'sentiment': y_train})
+    df2 = pd.DataFrame({'news': x_test, 'sentiment': y_test})
 
     # Apply the function to remove punctuation from the 'news' column in the train and test datasets
-    df_train['news'] = df_train['news'].apply(remove_punctuation)
-    df_test['news'] = df_test['news'].apply(remove_punctuation)
+    df1['news'] = df1['news'].apply(remove_punctuation)
+    df2['news'] = df2['news'].apply(remove_punctuation)
 
     # Display the first few rows of the train dataset to confirm punctuation removal
     print("Train DataFrame after removing punctuation:")
-    print(df_train.head())
+    print(df1.head())
 
     # Display the first few rows of the test dataset to confirm punctuation removal
     print("Test DataFrame after removing punctuation:")
-    print(df_test.head())
+    print(df2.head())
 
-    # Function to compute N-grams
-    def compute_ngrams(text, n):
-        tokens = word_tokenize(text)
-        n_grams = ngrams(tokens, n)
-        return list(n_grams)
+    return df1, df2
 
-    # Compute bigrams (or N-grams) for the cleaned text in train and test datasets
-    df_train['ngrams'] = df_train['news'].apply(lambda x: compute_ngrams(x, ngram_n))
-    df_test['ngrams'] = df_test['news'].apply(lambda x: compute_ngrams(x, ngram_n))
+# Example usage of the main function
+train_data, test_data = process_text_data('all-data.csv', test_size=0.4, random_state=42)
 
-    # Display the first few rows of the train dataset with N-grams
-    print("Train DataFrame with N-grams:")
-    print(df_train.head())
+train_data['bigrams'] = train_data['news'].apply(lambda x: compute_ngrams(x, 2))
+test_data['bigrams'] = test_data['news'].apply(lambda x: compute_ngrams(x, 2))
 
-    # Display the first few rows of the test dataset with N-grams
-    print("Test DataFrame with N-grams:")
-    print(df_test.head())
+# Display the first few rows of the train dataset with bigrams
+print("Train DataFrame with bigrams:")
+print(train_data.head())
 
-    return df_train, df_test
-
-# Example usage
-train_data, test_data = process_text_data('all-data.csv', test_size=0.4, random_state=42, ngram_n=2)
+# Display the first few rows of the test dataset with bigrams
+print("Test DataFrame with bigrams:")
+print(test_data.head())
