@@ -1,61 +1,64 @@
 import pandas as pd
-from sklearn.feature_extraction.text import CountVectorizer
+import re
+from collections import Counter
+from nltk.tokenize import word_tokenize
 
-# Load the CSV file into a DataFrame
-df = pd.read_csv('3_govt_urls_state_only.csv', encoding='ISO-8859-1', header=None)
-num_columns = df.shape[1]
-print(num_columns)
+file_path = '3_govt_urls_state_only.csv'
+df = pd.read_csv(file_path)
 
-df.columns = ['Domain', 'Federal Agency', 'Level of Government', 'Location', 'Status', 'Note', 'Link', 'Date Added']
+# Function to preprocess text
+def preprocess_text(text):
+    text = text.lower()  # Convert to lowercase
+    text = re.sub(r'\d+', '', text)  # Remove numbers
+    text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
+    return text
 
+# Function to tokenize and count word frequencies
+def get_most_common_words(texts):
+    all_words = []
+    for text in texts:
+        processed_text = preprocess_text(text)
+        words = word_tokenize(processed_text)
+        all_words.extend(words)
+    return Counter(all_words).most_common()
 
+# Extract most common words from the 'Note' column
+most_common_words = get_most_common_words(df['Note'])
 
-print('Column names:')
-print(df.columns.tolist())
+# Create a list of the most common words
+most_common_words_list = [word for word, _ in most_common_words]
 
-# Define a dictionary mapping sectors to keywords
-sector_ngrams = {
-    'Travel and Tourism': [
-        'travel and tourism', 'tourism site', 'tourist', 'vacation', 'hotel', 'resort',
-        'tourist attraction', 'tourism department', 'travel agency', 'travel guide', 'tourism board'
-    ],
-    'Education': [
-        'department of education', 'school', 'university', 'education', 'college', 'learning', 'extension service',
-        'academic institution', 'online learning', 'educational program', 'student', 'teacher training'
-    ],
-    'Food': [
-        'food service', 'restaurant', 'cafe', 'cuisine', 'dining', 'eatery',
-        'food safety', 'food and beverage', 'catering service', 'gourmet', 'culinary arts'
-    ],
-    'Public Health': [
-        'public health', 'department of public health', 'medical', 'hospital', 
-        'healthcare', 'clinic', 'epidemic', 'vaccination', 'health department', 'mental health services'
-    ],
-    'Government': [
-        'state government', 'local government', 'council', 'authority', 'commission', 'department',
-        'municipal government', 'federal agency', 'government policy', 'public administration', 'regulatory body'
-    ]
-}
+# Function to create a dynamic sector mapping
+def create_dynamic_sector_mapping(common_words):
+    sector_keywords = {}
+    
+    #dynamically determine sector categories
+    for word in common_words:
+        sector = word.lower()  # Treat each common word as a potential sector 
+        if sector not in sector_keywords:
+            sector_keywords[sector] = []
+        sector_keywords[sector].append(word)
+    
+    return sector_keywords
 
+# Create dynamic sector keywords mapping
+sector_keywords = create_dynamic_sector_mapping(most_common_words_list)
 
-# Function to extract n-grams from text
-def extract_ngrams(text, n=3):
-    vectorizer = CountVectorizer(ngram_range=(1, n))
-    analyzer = vectorizer.build_analyzer()
-    return analyzer(text)
-
-# Function to determine the sector based on the Note content
+# Function to determine sector for a given note
 def determine_sector(note):
-    if pd.isna(note):
-        return 'Unknown'  # Handle missing Note values
-    ngrams = extract_ngrams(note.lower())  # Extract n-grams from note
-    for sector, ngram_list in sector_ngrams.items():
-        if any(ngram in ngrams for ngram in ngram_list):
-            return sector
-    return 'Other'  # Return 'Other' if no n-grams match
+    processed_note = preprocess_text(note)
+    words = word_tokenize(processed_note)
+    for word in words:
+        for sector, keywords in sector_keywords.items():
+            if word in keywords:
+                return sector
+    return 'Unknown'
 
-# Apply the function to the Note column to create a new Sector column
+# Apply the determine_sector function to the 'Note' column
 df['Sector'] = df['Note'].apply(determine_sector)
 
-# Display the DataFrame with the new Sector column
+# Save the result to a new CSV file
+df[['Domain', 'Note', 'Sector']].to_csv('classified_data.csv', index=False)
+
+# Display the result
 print(df[['Domain', 'Note', 'Sector']])
