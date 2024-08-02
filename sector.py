@@ -31,6 +31,10 @@ state_names_pattern = re.compile(r'\b(?:' + '|'.join(re.escape(name) for name in
 file_path = '3_govt_urls_state_only.csv'
 df = pd.read_csv(file_path)
 
+# Function to extract state names from text
+def extract_state_names(text):
+    return re.findall(state_names_pattern, text)
+
 # Function to preprocess text with caching
 @lru_cache(maxsize=None)
 def preprocess_text(text):
@@ -39,7 +43,8 @@ def preprocess_text(text):
         text = text.split('--')[0]
     text = text.strip()  # Remove leading and trailing spaces
     
-    # Remove state names
+    # Extract and remove state names
+    state_names_extracted = extract_state_names(text)
     text = state_names_pattern.sub('', text)
     
     text = text.lower()  # Convert to lowercase
@@ -52,7 +57,7 @@ def preprocess_text(text):
     # Remove stopwords
     words = [word for word in words if word not in stop_words]
     
-    return ' '.join(words)
+    return ' '.join(words), state_names_extracted
 
 # Function to generate n-grams
 def generate_ngrams(text, n):
@@ -64,7 +69,7 @@ def generate_ngrams(text, n):
 def get_most_common_ngrams(texts, n, min_freq=2):
     all_ngrams = []
     for text in texts:
-        processed_text = preprocess_text(text)
+        processed_text, _ = preprocess_text(text)
         ngrams = generate_ngrams(processed_text, n)
         all_ngrams.extend(ngrams)
     
@@ -89,9 +94,9 @@ def create_dynamic_sector_mapping(common_ngrams):
     # Placeholder for dynamic sector keywords mapping
     sector_keywords = {}
     
-    # You can enhance this logic to dynamically determine sector categories
+    #dynamically determine sector categories
     for ngram in common_ngrams:
-        sector = ngram.lower()  # Treat each common n-gram as a potential sector (example approach)
+        sector = ngram.lower()  # Treat each common n-gram as a potential sector
         if sector not in sector_keywords:
             sector_keywords[sector] = []
         sector_keywords[sector].append(ngram)
@@ -103,7 +108,7 @@ sector_keywords = create_dynamic_sector_mapping(most_common_ngrams_list)
 
 # Function to determine sector for a given note
 def determine_sector(note):
-    processed_note = preprocess_text(note)
+    processed_note, _ = preprocess_text(note)
     ngrams = generate_ngrams(processed_note, 2) + generate_ngrams(processed_note, 3)
     for ngram in ngrams:
         for sector, keywords in sector_keywords.items():
@@ -111,14 +116,16 @@ def determine_sector(note):
                 return sector
     return 'Unknown'
 
-# Apply the determine_sector function to the 'Note' column
+# Apply the determine_sector function to the 'Note' column and extract state names
+df['Processed_Note'], df['States'] = zip(*df['Note'].apply(preprocess_text))
 df['Sector'] = df['Note'].apply(determine_sector)
 
-# Reorder columns to place 'Sector' first
-df = df[['Sector', 'Domain', 'Note']]
+# Reorder columns to place 'Sector' and 'Extracted_States' first
+df = df[['Sector', 'States', 'Domain', 'Note']]
 
 # Save the result to a new CSV file
 df.to_csv('classified_data.csv', index=False)
 
 # Display the result
 print(df)
+
