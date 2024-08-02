@@ -5,7 +5,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import nltk
 import json
-from nltk.util import ngrams
+from functools import lru_cache
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -22,15 +22,17 @@ states_info = states_data['states info']
 
 # Extract state names from JSON data
 state_names = [state_info['State'].lower() for state_info in states_info]
+state_names = [name for name in state_names if name != 'code']
 
-# Remove the header row or other unwanted rows if necessary
-state_names = [name for name in state_names if name.lower() != 'code']
+# Compile a regular expression pattern for state names
+state_names_pattern = re.compile(r'\b(?:' + '|'.join(re.escape(name) for name in state_names) + r')\b', re.IGNORECASE)
 
 # Load CSV file
 file_path = '3_govt_urls_state_only.csv'
 df = pd.read_csv(file_path)
 
-# Function to preprocess text
+# Function to preprocess text with caching
+@lru_cache(maxsize=None)
 def preprocess_text(text):
     # Remove everything after '--' if present
     if '--' in text:
@@ -38,8 +40,7 @@ def preprocess_text(text):
     text = text.strip()  # Remove leading and trailing spaces
     
     # Remove state names
-    for state in state_names:
-        text = re.sub(r'\b' + re.escape(state) + r'\b', '', text, flags=re.IGNORECASE)
+    text = state_names_pattern.sub('', text)
     
     text = text.lower()  # Convert to lowercase
     text = re.sub(r'\d+', '', text)  # Remove numbers
@@ -51,29 +52,46 @@ def preprocess_text(text):
     # Remove stopwords
     words = [word for word in words if word not in stop_words]
     
-    return words
+    return ' '.join(words)
 
-# Function to tokenize and count 2-grams (bigrams) frequencies
-def get_most_common_ngrams(texts, n):
+# Function to generate n-grams
+def generate_ngrams(text, n):
+    tokens = word_tokenize(text)
+    ngrams = zip(*[tokens[i:] for i in range(n)])
+    return [' '.join(gram) for gram in ngrams]
+
+# Function to tokenize and count word frequencies with n-grams
+def get_most_common_ngrams(texts, n, min_freq=2):
     all_ngrams = []
     for text in texts:
-        words = preprocess_text(text)
-        n_grams = ngrams(words, n)
-        all_ngrams.extend(n_grams)
-    return Counter(all_ngrams).most_common()
+        processed_text = preprocess_text(text)
+        ngrams = generate_ngrams(processed_text, n)
+        all_ngrams.extend(ngrams)
+    
+    ngram_counts = Counter(all_ngrams)
+    # Filter out n-grams with frequency less than min_freq
+    filtered_ngrams = {ngram: freq for ngram, freq in ngram_counts.items() if freq >= min_freq}
+    return filtered_ngrams
 
-# Extract most common 2-grams (bigrams) from the 'Note' column
-two_grams = get_most_common_ngrams(df['Note'], 2)
+# Extract most common n-grams (bigrams and trigrams) from the 'Note' column
+min_freq = 2  # Minimum frequency for n-grams to be included
+bigrams = get_most_common_ngrams(df['Note'], 2, min_freq)
+trigrams = get_most_common_ngrams(df['Note'], 3, min_freq)
 
-# Combine all n-grams into a single list for dynamic sector mapping
-most_common_ngrams_list = [(' '.join(ngram), count) for ngram, count in two_grams]
+# Combine bigrams and trigrams into a single dictionary
+most_common_ngrams = {**bigrams, **trigrams}
+
+# Create a list of the most common n-grams
+most_common_ngrams_list = list(most_common_ngrams.keys())
 
 # Function to create a dynamic sector mapping
 def create_dynamic_sector_mapping(common_ngrams):
+    # Placeholder for dynamic sector keywords mapping
     sector_keywords = {}
     
-    for ngram, _ in common_ngrams:
-        sector = ngram.lower()  # Treat each common 2-gram as a potential sector 
+    # You can enhance this logic to dynamically determine sector categories
+    for ngram in common_ngrams:
+        sector = ngram.lower()  # Treat each common n-gram as a potential sector (example approach)
         if sector not in sector_keywords:
             sector_keywords[sector] = []
         sector_keywords[sector].append(ngram)
@@ -85,12 +103,11 @@ sector_keywords = create_dynamic_sector_mapping(most_common_ngrams_list)
 
 # Function to determine sector for a given note
 def determine_sector(note):
-    words = preprocess_text(note)
-    n_grams = ngrams(words, 2)  # Generate 2-grams
-    for ngram in n_grams:
-        ngram_str = ' '.join(ngram).lower()
+    processed_note = preprocess_text(note)
+    ngrams = generate_ngrams(processed_note, 2) + generate_ngrams(processed_note, 3)
+    for ngram in ngrams:
         for sector, keywords in sector_keywords.items():
-            if ngram_str in keywords:
+            if ngram in keywords:
                 return sector
     return 'Unknown'
 
