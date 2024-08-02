@@ -1,0 +1,274 @@
+{
+    "states info": [
+        {
+            "State": "Code",
+            "Postal": "State",
+            "FIPS": "Postal"
+        },
+        {
+            "State": "Alabama",
+            "Postal": "AL",
+            "FIPS": "01"
+        },
+        {
+            "State": "Nebraska",
+            "Postal": "NE",
+            "FIPS": "31"
+        },
+        {
+            "State": "Alaska",
+            "Postal": "AK",
+            "FIPS": "02"
+        },
+        {
+            "State": "Nevada",
+            "Postal": "NV",
+            "FIPS": "32"
+        },
+        {
+            "State": "Arizona",
+            "Postal": "AZ",
+            "FIPS": "04"
+        },
+        {
+            "State": "New Hampshire",
+            "Postal": "NH",
+            "FIPS": "33"
+        },
+        {
+            "State": "Arkansas",
+            "Postal": "AR",
+            "FIPS": "05"
+        },
+        {
+            "State": "New Jersey",
+            "Postal": "NJ",
+            "FIPS": "34"
+        },
+        {
+            "State": "California",
+            "Postal": "CA",
+            "FIPS": "06"
+        },
+        {
+            "State": "New Mexico",
+            "Postal": "NM",
+            "FIPS": "35"
+        },
+        {
+            "State": "Colorado",
+            "Postal": "CO",
+            "FIPS": "08"
+        },
+        {
+            "State": "New York",
+            "Postal": "NY",
+            "FIPS": "36"
+        },
+        {
+            "State": "Connecticut",
+            "Postal": "CT",
+            "FIPS": "09"
+        },
+        {
+            "State": "North Carolina",
+            "Postal": "NC",
+            "FIPS": "37"
+        },
+        {
+            "State": "Delaware",
+            "Postal": "DE",
+            "FIPS": "10"
+        },
+        {
+            "State": "North Dakota",
+            "Postal": "ND",
+            "FIPS": "38"
+        },
+        {
+            "State": "District of Columbia",
+            "Postal": "DC",
+            "FIPS": "11"
+        },
+        {
+            "State": "Ohio",
+            "Postal": "OH",
+            "FIPS": "39"
+        },
+        {
+            "State": "Florida",
+            "Postal": "FL",
+            "FIPS": "12"
+        },
+        {
+            "State": "Oklahoma",
+            "Postal": "OK",
+            "FIPS": "40"
+        },
+        {
+            "State": "Georgia",
+            "Postal": "GA",
+            "FIPS": "13"
+        },
+        {
+            "State": "Oregon",
+            "Postal": "OR",
+            "FIPS": "41"
+        },
+        {
+            "State": "Hawaii",
+            "Postal": "HI",
+            "FIPS": "15"
+        },
+        {
+            "State": "Pennsylvania",
+            "Postal": "PA",
+            "FIPS": "42"
+        },
+        {
+            "State": "Idaho",
+            "Postal": "ID",
+            "FIPS": "16"
+        },
+        {
+            "State": "Puerto Rico",
+            "Postal": "PR",
+            "FIPS": "72"
+        },
+        {
+            "State": "Illinois",
+            "Postal": "IL",
+            "FIPS": "17"
+        },
+        {
+            "State": "Rhode Island",
+            "Postal": "RI",
+            "FIPS": "44"
+        },
+        {
+            "State": "Indiana",
+            "Postal": "IN",
+            "FIPS": "18"
+        },
+        {
+            "State": "South Carolina",
+            "Postal": "SC",
+            "FIPS": "45"
+        },
+        {
+            "State": "Iowa",
+            "Postal": "IA",
+            "FIPS": "19"
+        },
+        {
+            "State": "South Dakota",
+            "Postal": "SD",
+            "FIPS": "46"
+        },
+        {
+            "State": "Kansas",
+            "Postal": "KS",
+            "FIPS": "20"
+        },
+        {
+            "State": "Tennessee",
+            "Postal": "TN",
+            "FIPS": "47"
+        },
+        {
+            "State": "Kentucky",
+            "Postal": "KY",
+            "FIPS": "21"
+        },
+        {
+            "State": "Texas",
+            "Postal": "TX",
+            "FIPS": "48"
+        },
+        {
+            "State": "Louisiana",
+            "Postal": "LA",
+            "FIPS": "22"
+        },
+        {
+            "State": "Utah",
+            "Postal": "UT",
+            "FIPS": "49"
+        },
+        {
+            "State": "Maine",
+            "Postal": "ME",
+            "FIPS": "23"
+        },
+        {
+            "State": "Vermont",
+            "Postal": "VT",
+            "FIPS": "50"
+        },
+        {
+            "State": "Maryland",
+            "Postal": "MD",
+            "FIPS": "24"
+        },
+        {
+            "State": "Virginia",
+            "Postal": "VA",
+            "FIPS": "51"
+        },
+        {
+            "State": "Massachusetts",
+            "Postal": "MA",
+            "FIPS": "25"
+        },
+        {
+            "State": "Virgin Islands",
+            "Postal": "VI",
+            "FIPS": "78"
+        },
+        {
+            "State": "Michigan",
+            "Postal": "MI",
+            "FIPS": "26"
+        },
+        {
+            "State": "Washington",
+            "Postal": "WA",
+            "FIPS": "53"
+        },
+        {
+            "State": "Minnesota",
+            "Postal": "MN",
+            "FIPS": "27"
+        },
+        {
+            "State": "West Virginia",
+            "Postal": "WV",
+            "FIPS": "54"
+        },
+        {
+            "State": "Mississippi",
+            "Postal": "MS",
+            "FIPS": "28"
+        },
+        {
+            "State": "Wisconsin",
+            "Postal": "WI",
+            "FIPS": "55"
+        },
+        {
+            "State": "Missouri",
+            "Postal": "MO",
+            "FIPS": "29"
+        },
+        {
+            "State": "Wyoming",
+            "Postal": "WY",
+            "FIPS": "56"
+        },
+        {
+            "State": "Montana",
+            "Postal": "MT",
+            "FIPS": "30"
+        }
+    ]
+}
