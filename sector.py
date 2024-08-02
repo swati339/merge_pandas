@@ -5,6 +5,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import nltk
 import json
+from nltk.util import ngrams
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -50,47 +51,46 @@ def preprocess_text(text):
     # Remove stopwords
     words = [word for word in words if word not in stop_words]
     
-    return ' '.join(words)
+    return words
 
-# Function to tokenize and count word frequencies
-def get_most_common_words(texts):
-    all_words = []
+# Function to tokenize and count 2-grams (bigrams) frequencies
+def get_most_common_ngrams(texts, n):
+    all_ngrams = []
     for text in texts:
-        processed_text = preprocess_text(text)
-        words = word_tokenize(processed_text)
-        all_words.extend(words)
-    return Counter(all_words).most_common()
+        words = preprocess_text(text)
+        n_grams = ngrams(words, n)
+        all_ngrams.extend(n_grams)
+    return Counter(all_ngrams).most_common()
 
-# Extract most common words from the 'Note' column
-most_common_words = get_most_common_words(df['Note'])
+# Extract most common 2-grams (bigrams) from the 'Note' column
+two_grams = get_most_common_ngrams(df['Note'], 2)
 
-# Create a list of the most common words
-most_common_words_list = [word for word, _ in most_common_words]
+# Combine all n-grams into a single list for dynamic sector mapping
+most_common_ngrams_list = [(' '.join(ngram), count) for ngram, count in two_grams]
 
 # Function to create a dynamic sector mapping
-def create_dynamic_sector_mapping(common_words):
-    # Placeholder for dynamic sector keywords mapping
+def create_dynamic_sector_mapping(common_ngrams):
     sector_keywords = {}
     
-    #dynamically determine sector categories
-    for word in common_words:
-        sector = word.lower()  
+    for ngram, _ in common_ngrams:
+        sector = ngram.lower()  # Treat each common 2-gram as a potential sector 
         if sector not in sector_keywords:
             sector_keywords[sector] = []
-        sector_keywords[sector].append(word)
+        sector_keywords[sector].append(ngram)
     
     return sector_keywords
 
 # Create dynamic sector keywords mapping
-sector_keywords = create_dynamic_sector_mapping(most_common_words_list)
+sector_keywords = create_dynamic_sector_mapping(most_common_ngrams_list)
 
 # Function to determine sector for a given note
 def determine_sector(note):
-    processed_note = preprocess_text(note)
-    words = word_tokenize(processed_note)
-    for word in words:
+    words = preprocess_text(note)
+    n_grams = ngrams(words, 2)  # Generate 2-grams
+    for ngram in n_grams:
+        ngram_str = ' '.join(ngram).lower()
         for sector, keywords in sector_keywords.items():
-            if word in keywords:
+            if ngram_str in keywords:
                 return sector
     return 'Unknown'
 
