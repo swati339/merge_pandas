@@ -56,7 +56,7 @@ alabama state,['alabama'],asdd.com,"Alabama State Port Authority, Mobile, AL -- 
 american samoa,[],asgteo.com,American Samoa Territorial Energy Office -- Note added 6/7/13 14:55
 new york,['new york'],askpsc.com,New York State Public Service Commission‚Äôs Consumer Web Site -- Note added 1/10/14 19:17
 california state,['california'],asmdc.org,"California State Assembly Democratic Caucus, State of California -- Note added 6/6/13 18:08"
-assistive technology,['virginia'],atlfa.org,Assistive Technology Loan Fund Authority. The authority offers low interest loans for a variety of special equipment to eligible applicants. See the establishing law at http://law.lis.virginia.gov/authorities/assistive-technology-loan-fund-authority-atlfa  -- Note added 7/23/14 15:46
+assistive technology,[],atlfa.org,Assistive Technology Loan Fund Authority. The authority offers low interest loans for a variety of special equipment to eligible applicants. See the establishing law at http://law.lis.virginia.gov/authorities/assistive-technology-loan-fund-authority-atlfa  -- Note added 7/23/14 15:46
 Unknown,['arizona'],azbbhe.us,Arizona Board of Behavioral Health Examiners -- Note added 12/11/13 13:50
 Unknown,['arizona'],azcommerce.com,Arizona Commerce Authority -- Note added 12/11/13 13:50
 arizona state,['arizona'],azdentalboard.us,Arizona State Board of Dental Examiners -- Note added 12/11/13 13:50
@@ -648,7 +648,7 @@ secretary state,[],sosnc.com,NC Secretary Of State -- Note added 9/15/15 17:58
 south carolina,['south carolina'],southcarolinaarts.com,south carolina arts commission -- Note added 8/28/15 15:32
 south carolina,['south carolina'],southcarolinahistoricalsociety.org,south carolina historical society -- Note added 8/28/15 15:32
 pa state,[],spsba.org,PA State Public School Building Authority -- Note added 6/7/13 11:53
-susquehanna river,"['new york', 'maryland', 'pennsylvania']",srbc.net,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. -- Note added 6/26/13 16:30"
+susquehanna river,"['pennsylvania', 'maryland', 'new york']",srbc.net,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. -- Note added 6/26/13 16:30"
 portal state,['north carolina'],startsquad.org,"Start Squad, kid's portal to the State Library of North Carolina -- Note added 8/25/14 12:12"
 north carolina,['north carolina'],startwithyourheart.com,North Carolina's Justus-Warren Heart Disease and Stroke Prevention Task Force -- Note added 11/10/15 20:35
 pattern include,['alaska'],state.ak.us,"*state.ak.us pattern to include Alaska state agencies, such as those at: https://www.google.com/#q=site:state.ak.us  -- Note added 7/8/14 12:25"
@@ -722,7 +722,7 @@ Unknown,['idaho'],uidaho.edu/extension,University of Idaho Extension -- Note add
 u.s. virgin,['virgin islands'],usviber.org,U.S. Virgin Islands Bureau of Economic Research -- Note added 8/18/14 14:14
 u.s. virgin,['virgin islands'],usvieda.org,U.S. Virgin Islands Economic Development Authority -- Note added 8/18/14 14:12
 Unknown,['vermont'],uvm.edu/extension,University of Vermont Extension -- Note added 8/18/14 5:33
-Unknown,['wisconsin'],uwex.edu,University of Wisconsin-Extension -- Note added 8/12/14 5:36
+Unknown,[],uwex.edu,University of Wisconsin-Extension -- Note added 8/12/14 5:36
 cooperative extension,['wyoming'],uwyo.edu/CES,University of Wyoming Cooperative Extension Service -- Note added 7/23/14 5:39
 virginia state,['virginia'],va-src.org,Virginia State Rehabilitation Council (SRC) -- Note added 8/27/15 14:12
 state local,['virginia'],vaao.org,"The Virginia Association of Assessing Officers is a professional organization of assessors and appraisers from state and local governments throughout the Commonwealth. The organization's mission is to improve assessment standards, disseminate information on assessment practices, and provide continuing education to its members. -- Note added 7/11/14 18:56"
