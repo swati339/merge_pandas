@@ -20,20 +20,11 @@ def load_state_names(filename):
     return set(state_names)
 
 def preprocess_text(text, stop_words):
-    # Remove everything after '--' if present
     if '--' in text:
         text = text.split('--')[0]
-    text = text.strip()  # Remove leading and trailing spaces
-    
-    # Convert to lowercase
-    text = text.lower()
-
-    # Tokenize text
+    text = text.strip().lower()
     words = word_tokenize(text)
-    
-    # Remove stopwords
     words = [word for word in words if word not in stop_words]
-    
     return words
 
 def generate_ngrams(tokens, n):
@@ -46,11 +37,8 @@ def get_most_common_ngrams(texts, stop_words, n, min_freq=2):
         tokens = preprocess_text(text, stop_words)
         ngrams = generate_ngrams(tokens, n)
         all_ngrams.extend(ngrams)
-    
     ngram_counts = Counter(all_ngrams)
-    # Filter out n-grams with frequency less than min_freq
-    filtered_ngrams = {ngram: freq for ngram, freq in ngram_counts.items() if freq >= min_freq}
-    return filtered_ngrams
+    return {ngram: freq for ngram, freq in ngram_counts.items() if freq >= min_freq}
 
 def create_dynamic_sector_mapping(common_ngrams):
     sector_keywords = {}
@@ -61,15 +49,15 @@ def create_dynamic_sector_mapping(common_ngrams):
         sector_keywords[sector].append(ngram)
     return sector_keywords
 
-def determine_sector(note, stop_words, sector_keywords):
+def determine_sector(note, stop_words, sector_keywords, state_names):
     tokens = preprocess_text(note, stop_words)
+    tokens = [token for token in tokens if token not in state_names]  # Exclude state names
     ngrams = generate_ngrams(tokens, 2) + generate_ngrams(tokens, 3)
     for ngram in ngrams:
         for sector, keywords in sector_keywords.items():
             if ngram in keywords:
                 return sector
     return 'Unknown'
-
 
 # def extract_states_from_text(text, state_names):
 #     tokens = preprocess_text(text, [])  
@@ -86,7 +74,6 @@ def determine_sector(note, stop_words, sector_keywords):
 
 #     return list(found_states)
 
-    
 def extract_states_from_text(text, state_names):
     tokens = preprocess_text(text, [])  
     found_states = set()    
@@ -96,29 +83,26 @@ def extract_states_from_text(text, state_names):
 
     for token in tokens:
         token_lower = token.lower()
-        print(f"Single token: {token_lower}")  
+        print(f"Single token: {token_lower}")  # Debug print
 
         if token_lower in state_names_set:
-            print(f"Matched single-word state: {token_lower}")  
+            print(f"Matched single-word state: {token_lower}")  # Debug print
+
             found_states.add(token_lower)
 
-    bigrams = generate_ngrams(tokens, 2)  
+    bigrams = generate_ngrams(tokens, 2)
     for bigram in bigrams:
         bigram_lower = bigram.lower()
-        print(f"Bigram: {bigram_lower}")  
-        
         if bigram_lower in state_names_set:
-            print(f"Matched two-word state: {bigram_lower}")  
-            found_states.add(bigram_lower)
+            print(f"Matched two-word state: {bigram_lower}")  # Debug print
 
-    print(f"Found states: {list(found_states)}")  
+            found_states.add(bigram_lower)
+    print(f"Found states: {list(found_states)}")  # Debug print
+
     return list(found_states)
 
-
-
-
 def process_notes(df, state_names, stop_words, sector_keywords):
-    df['Sector'] = df['Note'].apply(lambda x: determine_sector(x, stop_words, sector_keywords))
+    df['Sector'] = df['Note'].apply(lambda x: determine_sector(x, stop_words, sector_keywords, state_names))
     df['States'] = df['Note'].apply(lambda x: extract_states_from_text(x, state_names))
     df = df[['Sector', 'States', 'Domain', 'Note']]
     return df
