@@ -94,27 +94,24 @@ def extract_states_from_text(text, state_names):
 
     state_names_set = set(state_names)
 
-    for i in range(len(tokens)):
-        token = tokens[i].lower()
-        print(f"Single token: {token}")  
+    for token in tokens:
+        token_lower = token.lower()
+        print(f"Single token: {token_lower}")  
+
+        if token_lower in state_names_set:
+            print(f"Matched single-word state: {token_lower}")  
+            found_states.add(token_lower)
+
+    bigrams = generate_ngrams(tokens, 2)  
+    for bigram in bigrams:
+        bigram_lower = bigram.lower()
+        print(f"Bigram: {bigram_lower}")  
         
-        if token in state_names_set:
-            if re.search(r'\b' + re.escape(token) + r'\b', token_string):
-                print(f"Matched single-word state: {token}")  
-                found_states.add(token)
+        if bigram_lower in state_names_set:
+            print(f"Matched two-word state: {bigram_lower}")  
+            found_states.add(bigram_lower)
 
-        # Check for two-word state names
-        if i < len(tokens) - 1:
-            next_token = tokens[i + 1].lower()
-            two_word_phrase = f"{token} {next_token}"
-            print(f"Two-word phrase: {two_word_phrase}")  
-            
-            if two_word_phrase in state_names_set:
-                if re.search(r'\b' + re.escape(two_word_phrase) + r'\b', token_string):
-                    print(f"Matched two-word state: {two_word_phrase}")  
-                    found_states.add(two_word_phrase)
-
-    print(f"Found states: {list(found_states)}")  # Final output debug
+    print(f"Found states: {list(found_states)}")  
     return list(found_states)
 
 

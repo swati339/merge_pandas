@@ -30,7 +30,7 @@ alabama state,['alabama'],albme.org,Alabama State Board of Medical Examiners (an
 board pharmacy,['alabama'],albop.com,Alabama Board of Pharmacy -- Note added 6/12/13 16:47
 alabama state,['alabama'],alsde.edu,Alabama State Department of Education -- Note added 6/12/13 17:15
 travel tourism,[],americansamoa.travel,Travel and Tourism Site for American Samoa -- Note added 6/6/13 19:22
-Unknown,"['washington', 'oregon']",amtrakcascades.com,"Amtrak Cascades, a train service sponsored by the state departments of transportation of Washington and Oregon. -- Note added 6/17/14 14:40"
+Unknown,"['oregon', 'washington']",amtrakcascades.com,"Amtrak Cascades, a train service sponsored by the state departments of transportation of Washington and Oregon. -- Note added 6/17/14 14:40"
 persons disabilities,[],apdcares.org,Agency for Persons with Disabilities (APD) -- Note added 2/25/15 15:33
 Unknown,['alaska'],apfc.org,Alaska Permanent Fund Corporation -- Note added 6/6/13 18:08
 public service,['arkansas'],apscservices.info,Arkansas Public Service Commission -- Note added 1/10/14 17:55
@@ -128,7 +128,7 @@ travel tourism,['georgia'],exploregeorgia.org,Travel and Tourism Site for Georgi
 travel tourism,['minnesota'],exploreminnesota.com,Travel and tourism site for state of Minnesota hosted by Explore Minnesota Tourism -- Note added 4/26/15 2:33
 cooperative extension,['virginia'],ext.vt.edu,Virginia Cooperative Extension  -- Note added 6/6/14 20:29
 washington state,['washington'],ext.wsu.edu,Washington State University Extension -- Note added 11/20/14 7:10
-west virginia,"['virginia', 'west virginia']",ext.wvu.edu,West Virginia University Extension Service -- Note added 7/24/14 5:33
+west virginia,"['west virginia', 'virginia']",ext.wvu.edu,West Virginia University Extension Service -- Note added 7/24/14 5:33
 iowa state,['iowa'],extension.iastate.edu,Iowa State University Extension -- Note added 8/25/15 20:26
 Unknown,['illinois'],extension.illinois.edu,University of Illinois Extension -- Note added 11/20/13 15:35
 new mexico,['new mexico'],extension.nmsu.edu,New Mexico Cooperative Extension Service -- Note added 7/25/13 17:39
@@ -648,7 +648,7 @@ secretary state,[],sosnc.com,NC Secretary Of State -- Note added 9/15/15 17:58
 south carolina,['south carolina'],southcarolinaarts.com,south carolina arts commission -- Note added 8/28/15 15:32
 south carolina,['south carolina'],southcarolinahistoricalsociety.org,south carolina historical society -- Note added 8/28/15 15:32
 pa state,[],spsba.org,PA State Public School Building Authority -- Note added 6/7/13 11:53
-susquehanna river,"['new york', 'pennsylvania', 'maryland']",srbc.net,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. -- Note added 6/26/13 16:30"
+susquehanna river,"['maryland', 'pennsylvania', 'new york']",srbc.net,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. -- Note added 6/26/13 16:30"
 portal state,['north carolina'],startsquad.org,"Start Squad, kid's portal to the State Library of North Carolina -- Note added 8/25/14 12:12"
 north carolina,['north carolina'],startwithyourheart.com,North Carolina's Justus-Warren Heart Disease and Stroke Prevention Task Force -- Note added 11/10/15 20:35
 pattern include,['alaska'],state.ak.us,"*state.ak.us pattern to include Alaska state agencies, such as those at: https://www.google.com/#q=site:state.ak.us  -- Note added 7/8/14 12:25"
@@ -811,20 +811,20 @@ washington state,['washington'],wscc.com,Washington State Convention Center -- N
 washington state,['washington'],wscpr.org,Washington State Commission on Pesticide Registration -- Note added 11/6/14 7:32
 washington state,['washington'],wshfc.org,Washington State Housing Finance Commission -- Note added 11/6/14 7:27
 washington state,['washington'],wssb.org,Washington State School for the Blind -- Note added 7/31/13 16:31
-west virginia,"['virginia', 'west virginia']",wvagriculture.org,West Virginia Department of Agriculture -- Note added 3/31/14 13:07
-west virginia,"['virginia', 'west virginia']",wvcommerce.org,West Virginia Department of Commerce -- Note added 3/24/14 16:50
-west virginia,"['virginia', 'west virginia']",wvculture.org,West Virginia Division of Culture and History -- Note added 3/31/14 13:08
-west virginia,"['virginia', 'west virginia']",wvdhhr.org,West Virginia Department of Health and Human Resources -- Note added 7/24/14 5:50
-west virginia,"['virginia', 'west virginia']",wvhdf.com,West Virginia Housing Development Fund -- Note added 7/24/14 5:51
-west virginia,"['virginia', 'west virginia']",wvhepc.com,West Virginia Higher Education Policy Commission -- Note added 3/31/14 13:12
-west virginia,"['virginia', 'west virginia']",wvlabor.com,"West Virginia Department of Commerce, Division of Labor -- Note added 7/24/14 5:52"
-west virginia,"['virginia', 'west virginia']",wvlottery.com,West Virginia Lottery -- Note added 6/12/13 14:29
-west virginia,"['virginia', 'west virginia']",wvnet.edu,West Virginia Network for Educational Telecomputing -- Note added 7/24/14 5:54
-west virginia,"['virginia', 'west virginia']",wvretirement.com,West Virginia Consolidated Public Retirement Board -- Note added 3/31/14 13:33
-west virginia,"['virginia', 'west virginia']",wvstateparks.com,West Virginia State Parks -- Note added 3/31/14 13:34
-west virginia,"['virginia', 'west virginia']",wvsto.com,West Virginia State Treasurer's Office -- Note added 3/31/14 13:35
-travel tourism,"['virginia', 'west virginia']",wvtourism.com,Travel and Tourism Site for West Virginia -- Note added 6/6/13 19:18
-west virginia,"['virginia', 'west virginia']",wvwda.org,West Virginia Water Development Authority -- Note added 7/24/14 5:57
+west virginia,"['west virginia', 'virginia']",wvagriculture.org,West Virginia Department of Agriculture -- Note added 3/31/14 13:07
+west virginia,"['west virginia', 'virginia']",wvcommerce.org,West Virginia Department of Commerce -- Note added 3/24/14 16:50
+west virginia,"['west virginia', 'virginia']",wvculture.org,West Virginia Division of Culture and History -- Note added 3/31/14 13:08
+west virginia,"['west virginia', 'virginia']",wvdhhr.org,West Virginia Department of Health and Human Resources -- Note added 7/24/14 5:50
+west virginia,"['west virginia', 'virginia']",wvhdf.com,West Virginia Housing Development Fund -- Note added 7/24/14 5:51
+west virginia,"['west virginia', 'virginia']",wvhepc.com,West Virginia Higher Education Policy Commission -- Note added 3/31/14 13:12
+west virginia,"['west virginia', 'virginia']",wvlabor.com,"West Virginia Department of Commerce, Division of Labor -- Note added 7/24/14 5:52"
+west virginia,"['west virginia', 'virginia']",wvlottery.com,West Virginia Lottery -- Note added 6/12/13 14:29
+west virginia,"['west virginia', 'virginia']",wvnet.edu,West Virginia Network for Educational Telecomputing -- Note added 7/24/14 5:54
+west virginia,"['west virginia', 'virginia']",wvretirement.com,West Virginia Consolidated Public Retirement Board -- Note added 3/31/14 13:33
+west virginia,"['west virginia', 'virginia']",wvstateparks.com,West Virginia State Parks -- Note added 3/31/14 13:34
+west virginia,"['west virginia', 'virginia']",wvsto.com,West Virginia State Treasurer's Office -- Note added 3/31/14 13:35
+travel tourism,"['west virginia', 'virginia']",wvtourism.com,Travel and Tourism Site for West Virginia -- Note added 6/6/13 19:18
+west virginia,"['west virginia', 'virginia']",wvwda.org,West Virginia Water Development Authority -- Note added 7/24/14 5:57
 army national,['montana'],www.montanaguard.com/,Montana Army National Guard -- Note added 3/2/15 6:52
 Unknown,['wyoming'],wyomingbusiness.org,Wyoming Business Council -- Note added 6/7/13 16:41
 travel tourism,['wyoming'],wyomingtourism.org,Travel and Tourism Site for Wyoming -- Note added 6/6/13 19:31
