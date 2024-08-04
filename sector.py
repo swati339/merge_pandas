@@ -71,21 +71,52 @@ def determine_sector(note, stop_words, sector_keywords):
     return 'Unknown'
 
 
+# def extract_states_from_text(text, state_names):
+#     tokens = preprocess_text(text, [])  
+#     found_states = set()
+#     token_string = ' '.join(tokens).lower()  # Create a string of tokens
+
+#     # Convert state names to a set for fast lookup
+#     state_names_set = set(state_names)
+
+#     for token in tokens:
+#         if token in state_names_set:
+#             if re.search(r'\b' + re.escape(token) + r'\b', token_string):
+#                 found_states.add(token)
+
+#     return list(found_states)
+
+    
 def extract_states_from_text(text, state_names):
-    tokens = preprocess_text(text, [])
-    
+    tokens = preprocess_text(text, [])  
+    found_states = set()    
+    token_string = ' '.join(tokens).lower()  
+
     state_names_set = set(state_names)
-    
-    found_states = set()
-    
-    # Check all possible phrases
-    for start in range(len(tokens)):
-        for end in range(start + 1, min(start + 6, len(tokens) + 1)):  
-            phrase = ' '.join(tokens[start:end])
-            if phrase.lower() in state_names_set:
-                found_states.add(phrase.lower())
-    
+
+    for i in range(len(tokens)):
+        token = tokens[i].lower()
+        print(f"Single token: {token}")  
+        
+        if token in state_names_set:
+            if re.search(r'\b' + re.escape(token) + r'\b', token_string):
+                print(f"Matched single-word state: {token}")  
+                found_states.add(token)
+
+        # Check for two-word state names
+        if i < len(tokens) - 1:
+            next_token = tokens[i + 1].lower()
+            two_word_phrase = f"{token} {next_token}"
+            print(f"Two-word phrase: {two_word_phrase}")  
+            
+            if two_word_phrase in state_names_set:
+                if re.search(r'\b' + re.escape(two_word_phrase) + r'\b', token_string):
+                    print(f"Matched two-word state: {two_word_phrase}")  
+                    found_states.add(two_word_phrase)
+
+    print(f"Found states: {list(found_states)}")  # Final output debug
     return list(found_states)
+
 
 
 

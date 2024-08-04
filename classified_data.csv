@@ -30,7 +30,7 @@ alabama state,['alabama'],albme.org,Alabama State Board of Medical Examiners (an
 board pharmacy,['alabama'],albop.com,Alabama Board of Pharmacy -- Note added 6/12/13 16:47
 alabama state,['alabama'],alsde.edu,Alabama State Department of Education -- Note added 6/12/13 17:15
 travel tourism,[],americansamoa.travel,Travel and Tourism Site for American Samoa -- Note added 6/6/13 19:22
-Unknown,"['oregon', 'washington']",amtrakcascades.com,"Amtrak Cascades, a train service sponsored by the state departments of transportation of Washington and Oregon. -- Note added 6/17/14 14:40"
+Unknown,"['washington', 'oregon']",amtrakcascades.com,"Amtrak Cascades, a train service sponsored by the state departments of transportation of Washington and Oregon. -- Note added 6/17/14 14:40"
 persons disabilities,[],apdcares.org,Agency for Persons with Disabilities (APD) -- Note added 2/25/15 15:33
 Unknown,['alaska'],apfc.org,Alaska Permanent Fund Corporation -- Note added 6/6/13 18:08
 public service,['arkansas'],apscservices.info,Arkansas Public Service Commission -- Note added 1/10/14 17:55
@@ -648,7 +648,7 @@ secretary state,[],sosnc.com,NC Secretary Of State -- Note added 9/15/15 17:58
 south carolina,['south carolina'],southcarolinaarts.com,south carolina arts commission -- Note added 8/28/15 15:32
 south carolina,['south carolina'],southcarolinahistoricalsociety.org,south carolina historical society -- Note added 8/28/15 15:32
 pa state,[],spsba.org,PA State Public School Building Authority -- Note added 6/7/13 11:53
-susquehanna river,"['pennsylvania', 'maryland', 'new york']",srbc.net,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. -- Note added 6/26/13 16:30"
+susquehanna river,"['new york', 'pennsylvania', 'maryland']",srbc.net,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. -- Note added 6/26/13 16:30"
 portal state,['north carolina'],startsquad.org,"Start Squad, kid's portal to the State Library of North Carolina -- Note added 8/25/14 12:12"
 north carolina,['north carolina'],startwithyourheart.com,North Carolina's Justus-Warren Heart Disease and Stroke Prevention Task Force -- Note added 11/10/15 20:35
 pattern include,['alaska'],state.ak.us,"*state.ak.us pattern to include Alaska state agencies, such as those at: https://www.google.com/#q=site:state.ak.us  -- Note added 7/8/14 12:25"
@@ -786,7 +786,7 @@ Unknown,['washington'],wablueberrycomm.org,Washington Blueberry Commission -- No
 Unknown,['washington'],wahardwoodscomm.com,Washington Hardwoods Commission -- Note added 11/12/14 6:29
 washington state,['washington'],walottery.com,Washington State Lottery -- Note added 12/2/14 7:23
 washington state,['washington'],waseedpotato.com,Washington State Seed Potato Commission -- Note added 11/12/14 6:26
-travel tourism,['district of columbia'],washington.org,Travel and Tourism Site for the District of Columbia -- Note added 6/6/13 19:31
+travel tourism,[],washington.org,Travel and Tourism Site for the District of Columbia -- Note added 6/6/13 19:31
 national guard,['washington'],washingtonairguard.org,Washington Air National Guard -- Note added 1/3/14 13:08
 army national,['washington'],washingtonarmyguard.org,Washington Army National Guard -- Note added 1/23/14 14:03
 national guard,['washington'],washingtonguard.org,Washington National Guard -- Note added 1/23/14 14:03
