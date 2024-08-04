@@ -4,10 +4,10 @@ see historical,[],1800arkansas.com,See historical snapshot at: http://web.archiv
 2-1-1 service,['virginia'],211.getcare.com,"2-1-1 VIRGINIA is a service of the Virginia Department of Social Services provided in partnership with the Council of Community Services, the Family Resource and Referral Center, The Planning Council, the United Way of Central Virginia, and the United Way of Greater Richmond and Petersburg. -- Note added 5/27/14 14:14"
 2-1-1 service,['virginia'],211virginia.org,"2-1-1 VIRGINIA is a service of the Virginia Department of Social Services provided in partnership with the Council of Community Services, the Family Resource and Referral Center, The Planning Council, the United Way of Central Virginia, and the United Way of Greater Richmond and Petersburg. -- Note added 1/10/14 19:17"
 Unknown,[],4thjudicialda.com,4th Judicial District Attorney -- Note added 1/10/14 19:17
-new york,[],511ny.org,"511 NY (New York State Department of Transportation), the free, official one-stop, all-encompassing telephone and Web service offering  information on transportation services and conditions throughout New York State.  -- Note added 1/24/14 14:34"
+new york,['new york'],511ny.org,"511 NY (New York State Department of Transportation), the free, official one-stop, all-encompassing telephone and Web service offering  information on transportation services and conditions throughout New York State.  -- Note added 1/24/14 14:34"
 Unknown,['idaho'],accessidaho.org,State of Idaho (mirror website of www.idaho.gov) -- Note added 7/17/14 14:28
 cooperative extension,['alabama'],aces.edu,Alabama Cooperative Extension System -- Note added 6/12/13 16:37
-new mexico,[],aces.nmsu.edu/pubs,New Mexico Cooperative Extension Publications -- Note added 7/25/13 17:38
+new mexico,['new mexico'],aces.nmsu.edu/pubs,New Mexico Cooperative Extension Publications -- Note added 7/25/13 17:38
 Unknown,['pennsylvania'],adoptpakids.org,Pennsylvania Adoption Exchange -- Note added 6/30/14 15:39
 department public,['alabama'],adph.org,Alabama Department of Public Health -- Note added 6/12/13 16:40
 Unknown,['massachusetts'],ag.umass.edu,University of Massachusetts Center for Agriculture Research and Extension -- Note added 11/20/13 15:32
@@ -54,16 +54,16 @@ state board,['arkansas'],arptb.org,Arkansas State Board of Physical Therapy -- N
 state board,['arkansas'],asbca.org,Arkansas State Board of Collection Agencies -- Note added 11/18/13 15:45
 state port,['alabama'],asdd.com,"Alabama State Port Authority, Mobile, AL -- Note added 6/12/13 17:16"
 american samoa,[],asgteo.com,American Samoa Territorial Energy Office -- Note added 6/7/13 14:55
-new york,[],askpsc.com,New York State Public Service Commission‚Äôs Consumer Web Site -- Note added 1/10/14 19:17
+new york,['new york'],askpsc.com,New York State Public Service Commission‚Äôs Consumer Web Site -- Note added 1/10/14 19:17
 ", state",['california'],asmdc.org,"California State Assembly Democratic Caucus, State of California -- Note added 6/6/13 18:08"
-assistive technology,[],atlfa.org,Assistive Technology Loan Fund Authority. The authority offers low interest loans for a variety of special equipment to eligible applicants. See the establishing law at http://law.lis.virginia.gov/authorities/assistive-technology-loan-fund-authority-atlfa  -- Note added 7/23/14 15:46
+assistive technology,['virginia'],atlfa.org,Assistive Technology Loan Fund Authority. The authority offers low interest loans for a variety of special equipment to eligible applicants. See the establishing law at http://law.lis.virginia.gov/authorities/assistive-technology-loan-fund-authority-atlfa  -- Note added 7/23/14 15:46
 Unknown,['arizona'],azbbhe.us,Arizona Board of Behavioral Health Examiners -- Note added 12/11/13 13:50
 Unknown,['arizona'],azcommerce.com,Arizona Commerce Authority -- Note added 12/11/13 13:50
 state board,['arizona'],azdentalboard.us,Arizona State Board of Dental Examiners -- Note added 12/11/13 13:50
 state parks,['arizona'],azstateparks.com,Arizona State Parks -- Note added 12/11/13 13:51
-north carolina,[],battleshipnc.com,"USS North Carolina Battleship, North Carolina Department of Cultural Resources -- Note added 3/20/14 17:19"
+north carolina,['north carolina'],battleshipnc.com,"USS North Carolina Battleship, North Carolina Department of Cultural Resources -- Note added 3/20/14 17:19"
 "estates ,",['washington'],baxterestates.org,"Village of Baxter Estates, Port Washington, NY -- Note added 6/8/15 12:11"
-north carolina,[],bmbt.org,North Carolina Board of Massage & Bodywork Therapy -- Note added 9/11/15 18:20
+north carolina,['north carolina'],bmbt.org,North Carolina Board of Massage & Bodywork Therapy -- Note added 9/11/15 18:20
 nc museum,[],bugfest.org,NC museum of natural sciences  -- Note added 9/11/15 18:50
 Unknown,['connecticut'],buyctbonds.com,State of Connecticut Bonds -- Note added 6/27/13 19:52
 national endowment,['california'],calhum.org,"California Humanities is an independent non-profit partner of the National Endowment for the Humanities,  nthat promotes the humanities in California in order to help create &ldquo;a state of open mind.' -- Note added 3/10/15 15:07"
@@ -76,7 +76,7 @@ environmental health,['california'],cehtp.org,"California Environmental Health T
 univ extension,['kentucky'],ces.ca.uky.edu/ces,Univ of Kentucky Extension website -- Note added 8/27/15 16:14
 combined federal,['hawaii'],cfc-hawaii.org,"Hawaii-Pacific Area Combined Federal Campaign - geographic area includes the State of Hawaii, Guam, Northern Marianas Islands, and American Samoa -- Note added 6/12/13 13:14"
 Unknown,['indiana'],cfclouisville.org,"Tristate CFC, Indiana -- Note added 8/27/15 14:19"
-north carolina,[],cfnc.org,"College Foundation of North Carolina, a¬†service of the State¬†of North Carolina -- Note added 7/24/13 16:09"
+north carolina,['north carolina'],cfnc.org,"College Foundation of North Carolina, a¬†service of the State¬†of North Carolina -- Note added 7/24/13 16:09"
 chesapeake bay,[],chesapeakebay.net,"Chesapeake Bay Program, Restoration of the Chesapeake Bay http://www.chesapeakebay.net -- Note added 11/20/13 16:26"
 's children,['pennsylvania'],chipcoverspakids.com,Pennsylvania's Children's Health Insurance Program (CHIP) -- Note added 6/6/13 18:08
 economic development,['maryland'],choosemaryland.org,Maryland Department of Business and Economic Development -- Note added 1/10/14 19:17
@@ -89,12 +89,12 @@ travel tourism,['colorado'],colorado.com,Travel and Tourism Site for Colorado --
 Unknown,['colorado'],coloradolottery.com,Colorado lottery -- Note added 6/12/13 14:06
 program .,['colorado'],coloradonocall.com,"Colorado No Call program. A private company, Data Protection Group, operates this site under contract with the Colorado Public Utilities Commission. -- Note added 7/11/14 5:54"
 "program ,",['colorado'],coloradoriverrecovery.org,"Upper Colorado River Endangered Fish Recovery Program, U.S. Fish and Wildlife Service -- Note added 7/23/14 13:45"
-north carolina,[],completestreetsnc.org,North Carolina DOT Complete Streets -- Note added 1/22/14 18:53
-"enterprises ,",[],correctionenterprises.com,"Correction Enterprises, North Carolina Department of Public Safety -- Note added 7/24/13 14:00"
+north carolina,['north carolina'],completestreetsnc.org,North Carolina DOT Complete Streets -- Note added 1/22/14 18:53
+"enterprises ,",['north carolina'],correctionenterprises.com,"Correction Enterprises, North Carolina Department of Public Safety -- Note added 7/24/13 14:00"
 Unknown,['louisiana'],crawfish.org,Louisiana Crawfish Promotion and Research Board (LCPRB) -- Note added 9/22/15 16:53
 Unknown,['georgia'],cscj.org,Georgia Superior Courts -- Note added 8/25/15 14:44
 state treasury,['connecticut'],ctbiglist.com,Connecticut State Treasury Unclaimed Property Owners List -- Note added 12/15/14 6:38
-", state",[],ctg.albany.edu,"Center for Technology at the University at Albany, State University of New York -- Note added 6/29/15 15:02"
+", state",['new york'],ctg.albany.edu,"Center for Technology at the University at Albany, State University of New York -- Note added 6/29/15 15:02"
 Unknown,['connecticut'],ctlottery.org,Connecticut lottery -- Note added 6/12/13 14:06
 state library,['connecticut'],ctstatelibrary.org,Connecticut State Library -- Note added 7/26/13 16:15
 travel tourism,['connecticut'],ctvisit.com,Travel and Tourism Site for Connecticut -- Note added 6/6/13 19:28
@@ -105,11 +105,11 @@ national guard,['delaware'],DelawareNationalGuard.com,Delaware National Guard --
 Unknown,['massachusetts'],detma.org,"Massachusetts JobQuest, Massachusetts Deparment of Career Services -- Note added 12/17/14 15:04"
 digital repository,['maine'],digitalmaine.com,"About the Digital Maine Repository The Digital Maine Repository is one of several services of the Maine State Library to facilitate digitization of - and enhanced access to - collections related to Maine history, genealogy, culture and government. The repository was designed to host a variety of media including books, images, maps and documents, as well as audio and video collections.  -- Note added 12/8/16 22:08"
 travel tourism,['ohio'],discoverohio.com,Travel and Tourism Site for Ohio -- Note added 6/6/13 19:30
-travel tourism,[],discoversouthcarolina.com,Travel and Tourism Site for South Carolina -- Note added 6/6/13 19:30
+travel tourism,['south carolina'],discoversouthcarolina.com,Travel and Tourism Site for South Carolina -- Note added 6/6/13 19:30
 Unknown,['virginia'],dmvnow.com,Virginia Department of Motor Vehicles -- Note added 6/6/14 20:27
 american samoa,[],doe.as,American Samoa Department of Education -- Note added 4/4/14 10:58
 nc dept,[],dornc.com,NC Dept of Revenue -- Note added 9/11/15 19:50
-"website ,",[],driving95.com,"Driving95 Corridor Planning and Finance Study website, North Carolina Department of Transportation (NCDOT) -- Note added 9/22/15 16:56"
+"website ,",['north carolina'],driving95.com,"Driving95 Corridor Planning and Finance Study website, North Carolina Department of Transportation (NCDOT) -- Note added 9/22/15 16:56"
 national guard,['wisconsin'],drugcontrolprogram.org,Wisconsin National Guard Drug Control Program -- Note added 1/23/14 14:03
 ' site,[],eatsmartmovemorenc.com,myeatsmartmovemore.com is the 'consumer' site and eatsmartmovemorenc.com is the 'program' site. -- Note added 7/24/13 16:22
 Unknown,[],ecb.org,Educational Communications Board of WI -- Note added 8/5/14 5:24
@@ -128,10 +128,10 @@ travel tourism,['georgia'],exploregeorgia.org,Travel and Tourism Site for Georgi
 travel tourism,['minnesota'],exploreminnesota.com,Travel and tourism site for state of Minnesota hosted by Explore Minnesota Tourism -- Note added 4/26/15 2:33
 cooperative extension,['virginia'],ext.vt.edu,Virginia Cooperative Extension  -- Note added 6/6/14 20:29
 state university,['washington'],ext.wsu.edu,Washington State University Extension -- Note added 11/20/14 7:10
-university extension,['virginia'],ext.wvu.edu,West Virginia University Extension Service -- Note added 7/24/14 5:33
+university extension,"['virginia', 'west virginia']",ext.wvu.edu,West Virginia University Extension Service -- Note added 7/24/14 5:33
 state university,['iowa'],extension.iastate.edu,Iowa State University Extension -- Note added 8/25/15 20:26
 university extension,['illinois'],extension.illinois.edu,University of Illinois Extension -- Note added 11/20/13 15:35
-new mexico,[],extension.nmsu.edu,New Mexico Cooperative Extension Service -- Note added 7/25/13 17:39
+new mexico,['new mexico'],extension.nmsu.edu,New Mexico Cooperative Extension Service -- Note added 7/25/13 17:39
 state university,['oregon'],extension.oregonstate.edu,Oregon State University Extension Service -- Note added 6/20/14 16:52
 Unknown,[],extension.psu.edu,Penn State Extension -- Note added 9/30/14 13:18
 cooperative extension,['indiana'],extension.purdue.edu,Purdue (Indiana) Cooperative Extension -- Note added 7/19/13 13:34
@@ -168,7 +168,7 @@ state defense,['georgia'],gasdf.org,Georgia State Defense Force public beta doma
 state defense,['georgia'],gasdf.us,Georgia State Defense Force email domain. Referenced on https://directory.doas.ga.gov/. Not in use as a public website.
 ", office",['mississippi'],gearupms.org,"GEAR UP Mississippi operates as part of the Institutions of Higher Learning, Office of Academic and Student Affairs in collaboration with the Mississippi Department of Education, State Board for Community and Junior Colleges and community and national partners. Funding is provided by the United States Department of Education. -- Note added 7/23/14 17:21"
 national guard,[],geauxguard.com,Lousiana National Guard -- Note added 1/22/14 19:28
-new mexico,[],geoinfo.nmt.edu,New Mexico Bureau of Geology & Mineral Resources -- Note added 7/16/14 5:13
+new mexico,['new mexico'],geoinfo.nmt.edu,New Mexico Bureau of Geology & Mineral Resources -- Note added 7/16/14 5:13
 civil war,['georgia'],georgiacivilwar.org,The Georgia Civil War Commission -- Note added 8/25/15 15:31
 Unknown,['georgia'],georgiafmc.com,The Georgia Fiscal Management Council    -- Note added 8/25/15 15:30
 Unknown,['georgia'],georgiatrust.org,Georgia Trust (Preservation Committee) -- Note added 8/25/15 15:28
@@ -178,7 +178,7 @@ Unknown,[],gnfa.com,Ga National Fair Grounds and Agricenter -- Note added 8/25/1
 Unknown,['georgia'],godr.org,Georgia Commission on Dispute Resolution -- Note added 12/5/13 14:15
 "authority ,",['hawaii'],gohawaii.com,"Hawaii Tourism Authority, Travel and Tourism Site for Hawaii -- Note added 2/10/15 14:00"
 fish boat,['pennsylvania'],gonefishingpa.com,Pennsylvania Fish and Boat Commission's Outdoor Shop -- Note added 6/7/13 11:34
-got nc,[],gottobenc.com,"Got to Be NC Agriculture, Goodness Grows in NC, North Carolina Department of Agriculture & Consumer Services -- Note added 6/28/13 16:56"
+got nc,['north carolina'],gottobenc.com,"Got to Be NC Agriculture, Goodness Grows in NC, North Carolina Department of Agriculture & Consumer Services -- Note added 6/28/13 16:56"
 got nc,[],gottobencfestival.com,"Got To Be NC Festival, a production of the NC Department of Agriculture -- Note added 8/2/13 15:48"
 consumer protection,['arkansas'],gotyourbackarkansas.org,Consumer Protection Division of the Arkansas Attorney General's Office -- Note added 1/10/14 19:17
 "governor ,",[],gov.mp,"Office of the Governor and Lt. Governor, Commonwealth of the Northern Mariana Islands plus *.gov.mp pattern for other government websites -- Note added 6/7/13 18:59"
@@ -196,7 +196,7 @@ official site,['washington'],havemilk.com,Official site of the Washington Dairy 
 state department,['hawaii'],hawaiipublicschools.org,Hawaii State Department of Education -- Note added 6/6/13 18:08
 "estates ,",[],hoffmanestates.com,"Village of Hoffman Estates, IL -- Note added 7/2/14 18:35"
 Unknown,['minnesota'],house.mn,Minnesota House of Representatives -- Note added 11/9/15 20:35
-historical society,[],hsnm.org,Historical Society of New Mexico -- Note added 7/16/14 5:16
+historical society,['new mexico'],hsnm.org,Historical Society of New Mexico -- Note added 7/16/14 5:16
 social services,['michigan'],hsofmich.org,Michigan State Humanities and Social Services Online -- Note added 9/3/15 15:22
 high technology,['hawaii'],htdc.org,High Technology Development Corporation. HTDC 'is a state agency established by the Hawaii State Legislature in 1983 to facilitate the development and growth of Hawaii's commercial high technology industry.' -- Note added 6/12/13 13:21
 nc health,[],hwtfc.org,NC health and Wellness Trust fund -- Note added 9/11/15 20:19
@@ -208,18 +208,18 @@ college savings,['idaho'],idsaves.org,IDeal - Idaho College Savings Program -- N
 http :,['indiana'],ifcem.com,"Benefits Portal, http://www.in.gov/fssa/ Indiana Family and Social Services Administration -- Note added 11/20/13 19:35"
 office state,['illinois'],illinoisepay.com,Office of the Illinois State Treasurer -- Note added 7/2/14 18:37
 Unknown,['illinois'],illinoislottery.com,Illinois Lottery -- Note added 6/12/13 14:09
-travel tourism,[],iloveny.com,Travel and Tourism Site for New York -- Note added 6/6/13 19:12
-"health ,",[],inclusivehealth.org,"Inclusive Health, North Carolina Health Insurance Risk Pool, Inc. -- Note added 11/20/13 19:54"
+travel tourism,['new york'],iloveny.com,Travel and Tourism Site for New York -- Note added 6/6/13 19:12
+"health ,",['north carolina'],inclusivehealth.org,"Inclusive Health, North Carolina Health Insurance Risk Pool, Inc. -- Note added 11/20/13 19:54"
 created state,['washington'],innovatewashington.org,Innovate Washington is hereby created as a state agency exercising public and essential governmental functions. Innovate Washington is created as the successor to the Washington technology center and the Spokane intercollegiate research and technology institute (SIRTI). See http://apps.leg.wa.gov/RCW/default.aspx?cite=43.333&full=true  -- Note added 7/23/14 14:21
 economic development,[],investguam.com,Guam Economic Development Authority (GEDA) web site. GEDA is an autonomous agency of the Government of Guam and a Guam public corporation. -- Note added 6/7/13 17:59
 Unknown,['montana'],investmentmt.com,Montana Board of Investments -- Note added 11/21/13 14:44
 economic development,['iowa'],iowaeconomicdevelopment.com,Iowa Economic Development Authority -- Note added 11/21/13 15:05
-Unknown,"['iowa', 'oklahoma']",iowanation.org,"Iowa Tribe of Oklahoma, Perkins, OK -- Note added 11/21/13 15:11"
+Unknown,"['oklahoma', 'iowa']",iowanation.org,"Iowa Tribe of Oklahoma, Perkins, OK -- Note added 11/21/13 15:11"
 national guard,['iowa'],iowanationalguard.com,Iowa National Guard -- Note added 1/23/14 14:03
 state fair,['iowa'],iowastatefair.org,Iowa State Fair -- Note added 6/12/13 18:48
-north carolina,[],itsok2ask.com,"The North Carolina Division of Public Health, Injury and Violence Prevention Branch, Youth Suicide Prevention Program works in collaboration with The North Carolina Youth Suicide Prevention Task Force to address youth suicide prevention in North Carolina. -- Note added 11/21/13 20:33"
-new jersey,[],jerseyhistory.org,new jersey history site -- Note added 9/16/15 14:49
-center .,[],jfkadatc.net,Julian F. Keith Alcohol and Drug Abuse Treatment Center. JFK ADATC operates under the authority of the State of North Carolina through the Division of State Operated Healthcare Facilities -- Note added 9/22/15 17:00
+north carolina,['north carolina'],itsok2ask.com,"The North Carolina Division of Public Health, Injury and Violence Prevention Branch, Youth Suicide Prevention Program works in collaboration with The North Carolina Youth Suicide Prevention Task Force to address youth suicide prevention in North Carolina. -- Note added 11/21/13 20:33"
+new jersey,['new jersey'],jerseyhistory.org,new jersey history site -- Note added 9/16/15 14:49
+center .,['north carolina'],jfkadatc.net,Julian F. Keith Alcohol and Drug Abuse Treatment Center. JFK ADATC operates under the authority of the State of North Carolina through the Division of State Operated Healthcare Facilities -- Note added 9/22/15 17:00
 nj department,[],jobs4jersey.com,Jobs4Jersey. NJ Department of Labor and Workforce Development. -- Note added 6/6/13 18:08
 "guam ,",[],justice.gov.gu,"Unified Courts of Guam, Guam Judiciary - www.justice.gov.gu -- Note added 6/7/13 17:57"
 commission -,[],justiceadmin.org,"Justice Administration Commission - The Justice Administrative Commission (JAC), created in 1965, provides administrative services on behalf of 49 judicial related entities. -- Note added 6/23/15 19:03"
@@ -264,11 +264,11 @@ state board,['louisiana'],lastbdarchs.com,Louisiana State Board of Architectural
 commission (,['louisiana'],laworks.net,Louisiana Workforce Commission (LAWorks) -- Note added 9/23/15 16:41
 board examiners,['louisiana'],lbedn.org,Louisiana Board of Examiners in Dietetics and Nutrition  -- Note added 8/24/15 14:48
 speech language,['louisiana'],lbespa.org,Louisiana board of speech language pathology -- Note added 8/24/15 14:51
-virgin islands,[],legvi.org,Legislature of the Virgin Islands -- Note added 8/18/14 14:07
+virgin islands,['virgin islands'],legvi.org,Legislature of the Virgin Islands -- Note added 8/18/14 14:07
 league municipalities,['kansas'],lkm.org,League of Kansas Municipalities -- Note added 7/9/14 4:50
-south carolina,[],llronline.com,"South Carolina Department of Labor, Licensing and Regulation -- Note added 1/17/14 15:50"
+south carolina,['south carolina'],llronline.com,"South Carolina Department of Labor, Licensing and Regulation -- Note added 1/17/14 15:50"
 league cities,['minnesota'],lmc.org,"League of Minnesota Cities Per the 'About the League' section of their website, LMC is 'a membership organization dedicated to promoting excellence in local government.'  -- Note added 4/26/15 4:37"
-Unknown,[],loteriaelectronicapr.com,Loter√É¬≠a Electr√É¬≥nica de Puerto Rico -- Note added 6/12/13 14:11
+Unknown,['puerto rico'],loteriaelectronicapr.com,Loter√É¬≠a Electr√É¬≥nica de Puerto Rico -- Note added 6/12/13 14:11
 community development,['louisiana'],louisianacda.com,Louisiana Community Development Authority -- Note added 9/23/15 12:18
 Unknown,['louisiana'],louisianalottery.com,Louisiana Lottery Corporation -- Note added 6/12/13 14:13
 board .,['louisiana'],louisianaseafood.com,"Louisiana Seafood Board. In 1984, the State of Louisiana created the Louisiana Seafood Promotion & Marketing Board. For more information see https://www.legis.la.gov/legis/BoardMembers.aspx?boardId=355. -- Note added 11/12/15 15:08"
@@ -346,167 +346,167 @@ office attorney,['florida'],myfloridalegal.com,Florida Office of the Attorney Ge
 attorney general,['florida'],myfloridarx.com,Developed by the Florida Attorney General and the Agency for Health Care Administration (AHCA) to help consumers shop for the lowest price in their area for their prescription drugs. -- Note added 1/10/14 19:17
 fish wildlife,['florida'],myfwc.com,Florida Fish and Wildlife Conservation Commission -- Note added 7/7/14 12:02
 travel tourism,[],mymarianas.com,Travel and Tourism Site for the Northern Mariana Islands -- Note added 6/6/13 19:42
-", government",[],nationalarchives.gov.vg,"National Archives and Records Management Unit, Government of the Virgin Islands -- Note added 8/18/14 14:03"
+", government",['virgin islands'],nationalarchives.gov.vg,"National Archives and Records Management Unit, Government of the Virgin Islands -- Note added 8/18/14 14:03"
 nc museum,[],naturalsciences.org,NC Museum of Natural Sciences -- Note added 11/12/15 15:15
 developmental disabilities,[],nc-ddc.org,NC Council on Developmental Disabilities -- Note added 1/14/14 14:15
-north carolina,[],nc-educationlottery.org,North Carolina Education Lottery -- Note added 6/12/13 14:18
+north carolina,['north carolina'],nc-educationlottery.org,North Carolina Education Lottery -- Note added 6/12/13 14:18
 nc state,[],nc-sco.com,NC State Construction Office -- Note added 9/16/15 13:21
-north carolina,[],ncabc.com,North Carolina Alcoholic Beverage Control Commission -- Note added 9/11/15 20:30
+north carolina,['north carolina'],ncabc.com,North Carolina Alcoholic Beverage Control Commission -- Note added 9/11/15 20:30
 nc agriculture,[],ncadfp.org,NC Agriculture Development & Farmland Preservation Trust Fund -- Note added 11/12/15 15:13
-", emergency",[],ncagrgis.com,"Multi-Hazard Threat Database, Emergency Programs Division, North Carolina Department of Agriculture and Consumer Services -- Note added 7/26/13 15:42"
-north carolina,[],ncair.org,North Carolina Division of Air Quality -- Note added 3/20/14 15:16
-north carolina,[],ncalb.org,The North Carolina Auctioneers board -- Note added 9/11/15 20:32
+", emergency",['north carolina'],ncagrgis.com,"Multi-Hazard Threat Database, Emergency Programs Division, North Carolina Department of Agriculture and Consumer Services -- Note added 7/26/13 15:42"
+north carolina,['north carolina'],ncair.org,North Carolina Division of Air Quality -- Note added 3/20/14 15:16
+north carolina,['north carolina'],ncalb.org,The North Carolina Auctioneers board -- Note added 9/11/15 20:32
 nc court,[],ncappellatecourts.org,NC Court System  -- Note added 9/11/15 20:32
 Unknown,[],ncappraisalboard.org,NC appraisal board -- Note added 9/11/15 20:33
 Unknown,[],ncapt.tv,NC Triangle Public Access TV n  n  -- Note added 9/11/15 20:35
 Unknown,[],ncaquariums.com,NC Aquariums -- Note added 9/11/15 20:35
 nc museum,[],ncartmuseum.org,NC Museum of Art -- Note added 9/11/15 20:36
-north carolina,[],ncarts.org,North Carolina Arts Council -- Note added 11/20/13 12:24
+north carolina,['north carolina'],ncarts.org,North Carolina Arts Council -- Note added 11/20/13 12:24
 assistive technology,[],ncatp.org,"NC Assistive technology Program - Receives grant funding under Public Law 108-364  through the Rehabilitation Services Administration, U.S. Department of Education, and is administered by the N.C. Department of Health and Human Services, Division of Vocational Rehabilitation Services -- Note added 11/12/15 15:02"
 nc office,[],ncauditor.net,NC Office of the State Auditor -- Note added 1/14/14 13:12
-north carolina,[],ncbarch.org,North Carolina Board of Architecture -- Note added 9/11/15 20:37
+north carolina,['north carolina'],ncbarch.org,North Carolina Board of Architecture -- Note added 9/11/15 20:37
 nc board,[],ncbate.org,NC Board of Athletic Trainers Examiners -- Note added 9/11/15 20:38
-north carolina,[],ncbdn.org,North Carolina Board of Dietetics/Nutrition   -- Note added 9/11/15 20:38
+north carolina,['north carolina'],ncbdn.org,North Carolina Board of Dietetics/Nutrition   -- Note added 9/11/15 20:38
 nc board,[],ncbeec.org,NC Board of Examiners of electrical contractors -- Note added 9/11/15 20:39
 nc board,[],ncbels.org,NC Board of Examiners for engineers and surveyors -- Note added 9/11/15 20:40
 nc board,[],ncbenha.org,NC Board of Nursing Homes Administrators -- Note added 9/11/15 20:41
 nc board,[],ncbfs.org,NC Board of Funeral Services -- Note added 9/11/15 20:41
 nc board,[],ncble.org,NC Board of Law Examiners -- Note added 9/14/15 20:44
-north carolina,[],ncblg.org,The North Carolina Board for the Licensing of Geologists  -- Note added 9/14/15 20:27
-north carolina,[],ncblpc.org,The North Carolina Board of Licensed Professional Counselors -- Note added 9/14/15 20:28
-north carolina,[],ncblss.org,The North Carolina Soil Scientist Licensing Program -- Note added 9/14/15 20:28
+north carolina,['north carolina'],ncblg.org,The North Carolina Board for the Licensing of Geologists  -- Note added 9/14/15 20:27
+north carolina,['north carolina'],ncblpc.org,The North Carolina Board of Licensed Professional Counselors -- Note added 9/14/15 20:28
+north carolina,['north carolina'],ncblss.org,The North Carolina Soil Scientist Licensing Program -- Note added 9/14/15 20:28
 nc board,[],ncboeslpa.org,NC Board of Examiners for Speech Language and Pathologist & Audiologist n  -- Note added 9/14/15 20:30
 nc board,[],ncbola.org,Welcome to the NC Board of Landscape Architects -- Note added 9/14/15 20:31
 nc board,[],ncbon.com,NC Board of Nursing -- Note added 9/14/15 20:31
 nc board,[],ncbop.org,NC Board of Pharmacy -- Note added 9/14/15 20:32
-north carolina,[],ncbot.org,The North Carolina Board of Occupational Therapy -- Note added 9/14/15 20:32
-state north,[],ncbpe.org,The Board of Podiatry Examiners for the State of North Carolina  -- Note added 9/14/15 20:32
+north carolina,['north carolina'],ncbot.org,The North Carolina Board of Occupational Therapy -- Note added 9/14/15 20:32
+state north,['north carolina'],ncbpe.org,The Board of Podiatry Examiners for the State of North Carolina  -- Note added 9/14/15 20:32
 waste management,[],ncbrownfields.org,NC Waste Management -- Note added 9/14/15 20:33
 Unknown,[],ncbusinesscourt.net,nc business court -- Note added 9/14/15 20:33
 nc school,[],ncbussafety.org,NC School bus Safety -- Note added 9/14/15 20:34
-"division ,",[],ncbytrain.org,"Rail Division, North Carolina Department of Transportation -- Note added 7/24/13 16:07"
-north carolina,[],nccbsw.org,North Carolina Social Work Certification and Licensure Board -- Note added 9/22/15 14:10
-north carolina,[],nccgl.net,"The North Carolina Center for Global Logistics is a collaborative effort between community colleges, universities, and industry partners focused on developing a highly trained workforce for the logistics and supply chain industry. -- Note added 9/14/15 20:47"
+"division ,",['north carolina'],ncbytrain.org,"Rail Division, North Carolina Department of Transportation -- Note added 7/24/13 16:07"
+north carolina,['north carolina'],nccbsw.org,North Carolina Social Work Certification and Licensure Board -- Note added 9/22/15 14:10
+north carolina,['north carolina'],nccgl.net,"The North Carolina Center for Global Logistics is a collaborative effort between community colleges, universities, and industry partners focused on developing a highly trained workforce for the logistics and supply chain industry. -- Note added 9/14/15 20:47"
 Unknown,[],ncchildsupport.com,NC Child Support Enforcement -- Note added 9/14/15 20:36
-north carolina,[],ncchiroboard.com,North Carolina Board of Chiropractic Examiners -- Note added 9/14/15 20:37
-north carolina,[],nccivilwar150.com,"North Carolina Civil War Sesquicentennial, North Carolina Department of Cultural Resources -- Note added 11/12/15 14:54"
+north carolina,['north carolina'],ncchiroboard.com,North Carolina Board of Chiropractic Examiners -- Note added 9/14/15 20:37
+north carolina,['north carolina'],nccivilwar150.com,"North Carolina Civil War Sesquicentennial, North Carolina Department of Cultural Resources -- Note added 11/12/15 14:54"
 nc division,[],nccoastalmanagement.net,NC Division of Coastal Management -- Note added 1/14/14 14:16
 ", nc",[],nccoastalreserve.net,"NC Coastal Reserve and National Estuarine Research Reserve, NC DEQ -- Note added 11/12/15 14:51"
-north carolina,[],nccob.org,North Carolina Office of the Commissioner of Banks (NCCOB) -- Note added 11/19/13 18:51
-north carolina,[],nccommerce.com,North Carolina Department of Commerce -- Note added 7/24/13 16:42
+north carolina,['north carolina'],nccob.org,North Carolina Office of the Commissioner of Banks (NCCOB) -- Note added 11/19/13 18:51
+north carolina,['north carolina'],nccommerce.com,North Carolina Department of Commerce -- Note added 7/24/13 16:42
 nc court,[],nccourts.org,nc court system -- Note added 9/14/15 20:38
 nc dept,[],nccrimecontrol.org,NC Dept of Public Safety -- Note added 9/14/15 20:39
 n.c. department,[],ncdenr.org,N.C. Department of Environment and Natural Resources -- Note added 7/24/13 16:27
-north carolina,[],ncdentalboard.org,North Carolina State Board of Dental Examiners -- Note added 9/14/15 20:40
-north carolina,[],ncdiabetes.org,"This site is a tool for North Carolina citizens and providers to reduce the impact of diabetes through leadership, education, communication and community involvement. -- Note added 9/14/15 20:41"
-governor 's,[],ncdisasterrelief.org,"The NC Helping Neighbors Fund is managed by the Governor's Office, in partnership with United Way of North Carolina. Donations are tax deductible; 100% of donated funds will go to the states impacted by Hurricane Sandy. -- Note added 9/14/15 20:48"
+north carolina,['north carolina'],ncdentalboard.org,North Carolina State Board of Dental Examiners -- Note added 9/14/15 20:40
+north carolina,['north carolina'],ncdiabetes.org,"This site is a tool for North Carolina citizens and providers to reduce the impact of diabetes through leadership, education, communication and community involvement. -- Note added 9/14/15 20:41"
+governor 's,['north carolina'],ncdisasterrelief.org,"The NC Helping Neighbors Fund is managed by the Governor's Office, in partnership with United Way of North Carolina. Donations are tax deductible; 100% of donated funds will go to the states impacted by Hurricane Sandy. -- Note added 9/14/15 20:48"
 juvenile justice,[],ncdjjdp.org," Juvenile Justice section of the N.C. Department of Public Safety, Division of Adult Correction and Juvenile Justice.  -- Note added 9/15/15 16:00"
 division marine,[],ncdmf.net,"Division of Marine Fisheries, NC DENR -- Note added 11/12/15 14:07"
 marine fisheries,[],ncdmfstore.net,NC Marine Fisheries Commission Store -- Note added 11/12/15 14:39
 nc division,[],ncdnpe.org,NC Division of Non Public Education -- Note added 9/15/15 16:01
-north carolina,[],ncdoi.com,North Carolina Department of Insurance -- Note added 11/19/13 20:06
+north carolina,['north carolina'],ncdoi.com,North Carolina Department of Insurance -- Note added 11/19/13 20:06
 Unknown,[],ncdoj.com,Dept of Justice -- Note added 9/15/15 16:04
-north carolina,[],ncdrought.org,North Carolina Drought Management Advisory Council -- Note added 11/12/15 14:05
+north carolina,['north carolina'],ncdrought.org,North Carolina Drought Management Advisory Council -- Note added 11/12/15 14:05
 nc denr,[],ncdsca.org,NC DENR's Division of Waste Management -- Note added 11/12/15 13:55
-north carolina,[],ncems.org,The North Carolina Office of EMS -- Note added 9/15/15 16:07
-north carolina,[],ncesf.org,The North Carolina Forest Service operates a system of six Educational State Forests (ESFs) designed to teach the public - especially school children - about the forest environment. -- Note added 9/15/15 16:34
+north carolina,['north carolina'],ncems.org,The North Carolina Office of EMS -- Note added 9/15/15 16:07
+north carolina,['north carolina'],ncesf.org,The North Carolina Forest Service operates a system of six Educational State Forests (ESFs) designed to teach the public - especially school children - about the forest environment. -- Note added 9/15/15 16:34
 management division,[],ncfacilitymanagement.net,"Facility Management Division, NC DOA -- Note added 11/12/15 13:45"
-north carolina,[],ncfarmfresh.com,"North Carolina Farm Fresh is a directory of pick-your-own farms, roadside farm markets, and farmers markets throughout North Carolina. It is designed to help the consumer, find the freshest locally grown fruits, vegetables, christmas trees, ornamental plants, flowers, and herbs. -- Note added 9/15/15 16:34"
-"program ,",[],ncfarmtoschool.com,"NC Farm to School program, North Carolina Department of Agriculture and Consumer Services -- Note added 6/12/13 18:34"
-north carolina,[],ncfhp.org,"North Carolina Farmworker Health Program (NCFHP), a statewide Migrant Health Voucher Program within the Office of Rural Health -- Note added 11/12/15 13:44"
+north carolina,['north carolina'],ncfarmfresh.com,"North Carolina Farm Fresh is a directory of pick-your-own farms, roadside farm markets, and farmers markets throughout North Carolina. It is designed to help the consumer, find the freshest locally grown fruits, vegetables, christmas trees, ornamental plants, flowers, and herbs. -- Note added 9/15/15 16:34"
+"program ,",['north carolina'],ncfarmtoschool.com,"NC Farm to School program, North Carolina Department of Agriculture and Consumer Services -- Note added 6/12/13 18:34"
+north carolina,['north carolina'],ncfhp.org,"North Carolina Farmworker Health Program (NCFHP), a statewide Migrant Health Voucher Program within the Office of Rural Health -- Note added 11/12/15 13:44"
 film office,[],ncfilm.com,NC Film Office -- Note added 9/15/15 16:35
-north carolina,[],ncfirewise.org,"Firewise North Carolina,¬†North Carolina Forest Service -- Note added 6/12/13 18:15"
+north carolina,['north carolina'],ncfirewise.org,"Firewise North Carolina,¬†North Carolina Forest Service -- Note added 6/12/13 18:15"
 division marine,[],ncfisheries.net,Division of Marine Fisheries  -- Note added 9/15/15 16:36
 Unknown,[],ncfloodmaps.com,NC flood risk information system -- Note added 9/15/15 16:37
 Unknown,[],ncforeclosurehelp.org,NC Foreclosure Prevention Fund -- Note added 11/12/15 13:43
-north carolina,[],ncforestactionplan.com,"North Carolina Forest Action Plan, North Carolina Forest Service -- Note added 11/12/15 13:40"
-north carolina,[],ncforestassessment.com,North Carolina Forest Action Plan See historical snapshot at: http://web.archive.org/web/20140517174935/http://ncforestassessment.com/  -- Note added 11/12/15 13:39
+north carolina,['north carolina'],ncforestactionplan.com,"North Carolina Forest Action Plan, North Carolina Forest Service -- Note added 11/12/15 13:40"
+north carolina,['north carolina'],ncforestassessment.com,North Carolina Forest Action Plan See historical snapshot at: http://web.archive.org/web/20140517174935/http://ncforestassessment.com/  -- Note added 11/12/15 13:39
 Unknown,[],ncfreshlink.com,NC Fresh Produce Information site -- Note added 9/15/15 16:37
-state north,[],ncgov.com,State of North Carolina -- Note added 1/14/14 13:05
-governor 's,[],ncgovschool.org,"Governor's School of North Carolina, NC Department of Public Instruction -- Note added 6/12/13 18:35"
-north carolina,[],ncgtp.com,The North Carolina Global TransPark -- Note added 9/15/15 16:39
+state north,['north carolina'],ncgov.com,State of North Carolina -- Note added 1/14/14 13:05
+governor 's,['north carolina'],ncgovschool.org,"Governor's School of North Carolina, NC Department of Public Instruction -- Note added 6/12/13 18:35"
+north carolina,['north carolina'],ncgtp.com,The North Carolina Global TransPark -- Note added 9/15/15 16:39
 Unknown,[],nchalb.org,NC hearing Aid Dealers -- Note added 9/15/15 16:39
 nc health,[],nchan.org,NC Health & Human Services -- Note added 9/15/15 16:39
 Unknown,[],nchealthyschools.org,NC Healthy School Website -- Note added 9/15/15 16:41
 housing finance,[],nchfa.com,NC Housing Finance Agency  -- Note added 9/15/15 16:42
-north carolina,[],nchilb.com,North Carolina Home Inspetor Licensure Board -- Note added 11/20/13 12:38
+north carolina,['north carolina'],nchilb.com,North Carolina Home Inspetor Licensure Board -- Note added 11/20/13 12:38
 Unknown,[],nchistoricsites.org,NC Historic Sites -- Note added 9/15/15 16:42
 Unknown,[],ncids.org,Office of Indigent Defense Services  -- Note added 9/15/15 16:43
 Unknown,[],ncih.net,NC International House -- Note added 9/15/15 16:44
 Unknown,[],nciom.org,NC Institute of Medecine -- Note added 9/15/15 16:45
-north carolina,[],ncitlb.org,The North Carolina Interpreters & Transliterators Licensing Board -- Note added 9/15/15 16:45
-north carolina,[],ncknows.org,NCknows is a service that allows North Carolina residents to get help from librarians and use their library resources remotely through a computer. NCknows is a pilot project supported by a grant under the Federally-funded Library Services and Technology Act (LSTA). The project is administered by the State Library of North Carolina in Raleigh with help from a committee of librarians and directors from North Carolina's libraries. -- Note added 11/12/15 13:22
+north carolina,['north carolina'],ncitlb.org,The North Carolina Interpreters & Transliterators Licensing Board -- Note added 9/15/15 16:45
+north carolina,['north carolina'],ncknows.org,NCknows is a service that allows North Carolina residents to get help from librarians and use their library resources remotely through a computer. NCknows is a pilot project supported by a grant under the Federally-funded Library Services and Technology Act (LSTA). The project is administered by the State Library of North Carolina in Raleigh with help from a committee of librarians and directors from North Carolina's libraries. -- Note added 11/12/15 13:22
 nc dept,[],nclabor.com,NC Dept of Labor -- Note added 9/15/15 16:45
 Unknown,[],ncleg.net,NC Generla Assembly  -- Note added 9/15/15 16:46
-north carolina,[],nclicensing.org,"North Carolina State Board of Examiners of Plumbing, Heating and Fire Sprinkler Contractors -- Note added 9/15/15 16:46"
+north carolina,['north carolina'],nclicensing.org,"North Carolina State Board of Examiners of Plumbing, Heating and Fire Sprinkler Contractors -- Note added 9/15/15 16:46"
 lifetime income,[],nclifetimeincome.org,NC Lifetime Income - Members of the Teachers' and State Employees' Retirement System (TSERS) and Local Governmental Employees' Retirement System (LGERS) will have a one-time opportunity to transfer all or part of their NC 401(k) and/or NC Deferred Compensation (457) funds to the Retirement System in order to receive lifetime income at or after retirement. -- Note added 11/12/15 13:21
 nc public,[],nclive.org,NC Public Library -- Note added 9/15/15 16:47
-north carolina,[],nclm.org,North Carolina League of Municipalities -- Note added 6/6/13 18:08
-north carolina,[],nclmft.org,the board of Marriage and family therapy of North Carolina -- Note added 9/15/15 16:48
-north carolina,[],nclocksmithboard.org,The North Carolina Locksmith Licensing Board -- Note added 9/15/15 16:48
-state north,[],ncmail.net,State of North Carolina Office of Information Technology Services -- Note added 9/15/15 16:49
-north carolina,[],ncmaritimemuseums.com,North Carolina Maritime Museum System -- Note added 8/2/13 15:50
-north carolina,[],ncmarkers.com,"North Carolina Highway Historical Marker Program, NC Department of Cultural Resources -- Note added 11/12/15 13:19"
+north carolina,['north carolina'],nclm.org,North Carolina League of Municipalities -- Note added 6/6/13 18:08
+north carolina,['north carolina'],nclmft.org,the board of Marriage and family therapy of North Carolina -- Note added 9/15/15 16:48
+north carolina,['north carolina'],nclocksmithboard.org,The North Carolina Locksmith Licensing Board -- Note added 9/15/15 16:48
+state north,['north carolina'],ncmail.net,State of North Carolina Office of Information Technology Services -- Note added 9/15/15 16:49
+north carolina,['north carolina'],ncmaritimemuseums.com,North Carolina Maritime Museum System -- Note added 8/2/13 15:50
+north carolina,['north carolina'],ncmarkers.com,"North Carolina Highway Historical Marker Program, NC Department of Cultural Resources -- Note added 11/12/15 13:19"
 medical board,[],ncmedboard.org,NC Medical Board -- Note added 9/15/15 16:53
 nc division,[],ncmedicaidpbm.com,NC Division of Medical Assistance -- Note added 9/15/15 16:54
 Unknown,[],ncminorityhealth.org,N.C. Office of Minority Health and Health Disparities -- Note added 9/15/15 16:55
 Unknown,[],ncmotorfleet.com,NC Motor fleet management -- Note added 9/15/15 16:55
 health care,[],ncnar.org,The N.C. Health Care Personnel Registry Section   -- Note added 9/15/15 16:56
 program (,[],ncnewbornhearing.org,Early Hearing Detection and Intervention Program (NC DHHS &gt; DPH &gt; WCH Section &gt; Children and Youth Branch) -- Note added 11/12/15 13:18
-north carolina,[],ncnhp.org,The North Carolina Natural Heritage Program -- Note added 9/15/15 16:56
-", north",[],ncnhtf.org,"Established in 1987, the North Carolina Natural Heritage Trust Fund provided supplemental funding to select state agencies for the acquisition and protection of important natural areas, to preserve the state's ecological diversity and cultural heritage, and to inventory the natural heritage resources of the state. In July 2013, these key purposes were incorporated in the Clean Water Management Trust Fund enabling legislation and the NHTF statute was repealed. See historical snapshot at:  http://web.archive.org/web/20150129185256/http://www.ncnhtf.org/pages/aboutnhtf.htm  -- Note added 11/12/15 13:15"
-north carolina,[],ncoah.com,North Carolina Office of Administrative Hearings -- Note added 9/15/15 16:57
+north carolina,['north carolina'],ncnhp.org,The North Carolina Natural Heritage Program -- Note added 9/15/15 16:56
+", north",['north carolina'],ncnhtf.org,"Established in 1987, the North Carolina Natural Heritage Trust Fund provided supplemental funding to select state agencies for the acquisition and protection of important natural areas, to preserve the state's ecological diversity and cultural heritage, and to inventory the natural heritage resources of the state. In July 2013, these key purposes were incorporated in the Clean Water Management Trust Fund enabling legislation and the NHTF statute was repealed. See historical snapshot at:  http://web.archive.org/web/20150129185256/http://www.ncnhtf.org/pages/aboutnhtf.htm  -- Note added 11/12/15 13:15"
+north carolina,['north carolina'],ncoah.com,North Carolina Office of Administrative Hearings -- Note added 9/15/15 16:57
 Unknown,[],ncoes.net,Welcome to the Grand Chapter of NC Order of the Eastern Star -- Note added 9/15/15 16:57
-nc onemap,[],nconemap.com,NC OneMap is a public service providing comprehensive discovery and access to North Carolina's geospatial data resources. -- Note added 9/15/15 16:58
-nc onemap,[],nconemap.net,"NC OneMap, a public service providing comprehensive discovery and access to North Carolina's geospatial data resources. -- Note added 11/12/15 13:13"
-north carolina,[],ncoptometry.org,he North Carolina State Board of Examiners in Optometry -- Note added 9/15/15 16:58
+nc onemap,['north carolina'],nconemap.com,NC OneMap is a public service providing comprehensive discovery and access to North Carolina's geospatial data resources. -- Note added 9/15/15 16:58
+nc onemap,['north carolina'],nconemap.net,"NC OneMap, a public service providing comprehensive discovery and access to North Carolina's geospatial data resources. -- Note added 11/12/15 13:13"
+north carolina,['north carolina'],ncoptometry.org,he North Carolina State Board of Examiners in Optometry -- Note added 9/15/15 16:58
 ( nc,[],ncpanbranch.com,"NC Physical Activity and Nutrition Branch (NC PAN), NC Department of Public Health See historical snapshot at: http://web.archive.org/web/20130128034822/http://www.ncpanbranch.com/  -- Note added 11/12/15 13:12"
 Unknown,[],ncports.com,NC ports  -- Note added 9/15/15 17:03
 Unknown,[],ncprogress.org,NC Progress Portal -- Note added 9/15/15 17:03
 Unknown,[],ncpsychologyboard.org,nc psychology board -- Note added 9/15/15 17:03
-north carolina,[],ncptboard.org,The North Carolina Board of Physical Therapy Examiners -- Note added 9/15/15 17:04
-", north",[],ncpublications.com,"Historical Publications, North Carolina Office of Archives and History, Department of Cultural Resources -¬†www.ncpublications.com -- Note added 6/6/13 18:34"
-north carolina,[],ncpublichealth.com,North Carolina Division of Public Health -- Note added 7/26/13 15:09
+north carolina,['north carolina'],ncptboard.org,The North Carolina Board of Physical Therapy Examiners -- Note added 9/15/15 17:04
+", north",['north carolina'],ncpublications.com,"Historical Publications, North Carolina Office of Archives and History, Department of Cultural Resources -¬†www.ncpublications.com -- Note added 6/6/13 18:34"
+north carolina,['north carolina'],ncpublichealth.com,North Carolina Division of Public Health -- Note added 7/26/13 15:09
 nc public,[],ncpublicschools.org,nc public schools -- Note added 9/15/15 17:05
 "section ,",[],ncradiation.net,"Radiation Protection Section, NC Department of Health and Human Services -- Note added 1/14/14 14:18"
 Unknown,[],ncradon.org,NC Radon Awarenes Site -- Note added 9/15/15 17:05
 compensation insurance,[],ncrb.org,"We serve the NC insurance industry by providing services and programs for automobile, property and workers compensation insurance. This site contains information for these types of insurance. -- Note added 9/15/15 17:06"
-north carolina,[],ncrcb.org,the North Carolina Respiratory Care   -- Note added 9/15/15 17:13
-north carolina,[],ncrea.net,North Carolina Rural Electrification Authority -- Note added 9/15/15 17:14
+north carolina,['north carolina'],ncrcb.org,the North Carolina Respiratory Care   -- Note added 9/15/15 17:13
+north carolina,['north carolina'],ncrea.net,North Carolina Rural Electrification Authority -- Note added 9/15/15 17:14
 nc state,[],ncrehs.com,NC State Board of Environmental Health Specialist Examiners -- Note added 11/19/13 20:40
 Unknown,[],ncreportcards.org,nc report cards for schools -- Note added 9/15/15 17:16
 Unknown,[],ncscienceandtechnology.com,nc science and technology -- Note added 9/15/15 17:17
 nc school,[],ncsd.net,NC School for the deaf -- Note added 9/15/15 17:17
 nc state,[],ncsecc.org,NC State Employees Combined Campaign -- Note added 9/15/15 17:18
-north carolina,[],ncshiip.com,North Carolina Seniors' Health Insurance Information Program (SHIIP) -- Note added 1/22/14 19:19
-north carolina,[],ncsicklecellprogram.org,"North Carolina Sickle Cell Syndrome Program, NC Department of Public Health -- Note added 11/12/15 13:09"
-north carolina,[],ncsip.org,The North Carolina State Improvement Project (NC SIP ). NC SIP is a program in the Exceptional Children Division of the North Carolina Department of Public Instruction (NC DPI). -- Note added 9/15/15 17:19
-north carolina,[],ncsitesearch.com,"Thank you for visiting ACCESSNC, your one-stop source for North Carolina economic data and site information. -- Note added 9/15/15 17:19"
+north carolina,['north carolina'],ncshiip.com,North Carolina Seniors' Health Insurance Information Program (SHIIP) -- Note added 1/22/14 19:19
+north carolina,['north carolina'],ncsicklecellprogram.org,"North Carolina Sickle Cell Syndrome Program, NC Department of Public Health -- Note added 11/12/15 13:09"
+north carolina,['north carolina'],ncsip.org,The North Carolina State Improvement Project (NC SIP ). NC SIP is a program in the Exceptional Children Division of the North Carolina Department of Public Instruction (NC DPI). -- Note added 9/15/15 17:19
+north carolina,['north carolina'],ncsitesearch.com,"Thank you for visiting ACCESSNC, your one-stop source for North Carolina economic data and site information. -- Note added 9/15/15 17:19"
 ", management",[],ncstars.org,"The Carolina Star Program is designed to recognize and promote effective safety and health management systems. In Star, management, labor and OSH establish a cooperative relationship at a workplace that has implemented a strong program. -- Note added 9/15/15 17:20"
 nc state,[],ncstatefair.org,NC state Fair -- Note added 9/15/15 17:20
 Unknown,[],ncstormwater.org,NC Stormwater and Runoff pollution site -- Note added 9/15/15 17:22
 nc state,[],ncsu.edu/extension,NC State Univ Extension  -- Note added 9/15/15 17:22
-north carolina,[],ncswboard.org,North Carolina Social Work Certification and Licensure Board -- Note added 9/22/15 14:12
+north carolina,['north carolina'],ncswboard.org,North Carolina Social Work Certification and Licensure Board -- Note added 9/22/15 14:12
 Unknown,[],ncsymphony.org,NC Symphony -- Note added 9/15/15 17:22
 ", nc",[],nctobaccofreeschools.org,"Tobacco Free Schools, NC Department of Health and Human Services -- Note added 2/25/14 13:20"
-state north,[],nctokyo.com,State of North Carolina Japan Office -- Note added 7/24/13 16:40
+state north,['north carolina'],nctokyo.com,State of North Carolina Japan Office -- Note added 7/24/13 16:40
 http :,[],nctopps.ncdmh.net,NC-TOPPS homepage is now http://www.ncdhhs.gov/MHDDSAS/providers/NCTOPPS/index.htm. Entry still included here for nctopps.ncdmh.net pattern for pages such as https://www.google.com/search?q=site%3Anctopps.ncdmh.net. -- Note added 7/23/14 14:41
 nc office,[],nctraining.ncgov.com,NC Office of State Personnel -- Note added 1/14/14 13:06
 Unknown,[],nctrans.org,NC Transportation Museum -- Note added 9/15/15 17:25
-north carolina,[],nctreasurer.com,North Carolina Department of State Treasurer -- Note added 6/6/13 18:09
-north carolina,[],ncvmb.org,North Carolina Veterinary Medical Board -- Note added 9/15/15 17:30
-north carolina,[],ncwastetrader.org,North Carolina's marketplace for discarded or surplus materials and products. -- Note added 9/15/15 17:31
+north carolina,['north carolina'],nctreasurer.com,North Carolina Department of State Treasurer -- Note added 6/6/13 18:09
+north carolina,['north carolina'],ncvmb.org,North Carolina Veterinary Medical Board -- Note added 9/15/15 17:30
+north carolina,['north carolina'],ncwastetrader.org,North Carolina's marketplace for discarded or surplus materials and products. -- Note added 9/15/15 17:31
 nc division,[],ncwater.org,NC Division of Water Resources -- Note added 9/15/15 17:31
-north carolina,[],ncwaterquality.org,North Carolina Division of Water Resources -- Note added 11/12/15 12:58
-north carolina,[],ncwelldriller.org,"North Carolina Well Contractors Certification Commission - protects the public health and safety by ensuring the integrity and competence of well contractors through examination, certification, continuing education and enforcement. The Well Contractors Certification Unit is now part of the Department of Health and Human Services. -- Note added 11/12/15 12:57"
+north carolina,['north carolina'],ncwaterquality.org,North Carolina Division of Water Resources -- Note added 11/12/15 12:58
+north carolina,['north carolina'],ncwelldriller.org,"North Carolina Well Contractors Certification Commission - protects the public health and safety by ensuring the integrity and competence of well contractors through examination, certification, continuing education and enforcement. The Well Contractors Certification Unit is now part of the Department of Health and Human Services. -- Note added 11/12/15 12:57"
 Unknown,[],ncwildlife.org,nc wildlife resource commission  -- Note added 9/15/15 17:32
 nc wiseowl,[],ncwise.org,"NC WiseOwl (NC Online Windows for Learning) has been providing online subscription resources for our schools since 1999.  Our mission is to ensure that all of our public and charter school students have access to a collection of online resources for use in research projects and homework assignments, without regard to the economic status of their local school system.  NC WiseOwl has three major strengths as an educational resource: -- Note added 9/15/15 17:33"
-north carolina,[],nczoo.org,NC Zoo is an agency of the North Carolina Department of Natural and Cultural Resources -- Note added 11/12/15 12:48
-north dakota,[],ndlc.org,North Dakota League of Cities -- Note added 7/22/14 6:08
+north carolina,['north carolina'],nczoo.org,NC Zoo is an agency of the North Carolina Department of Natural and Cultural Resources -- Note added 11/12/15 12:48
+north dakota,['north dakota'],ndlc.org,North Dakota League of Cities -- Note added 7/22/14 6:08
 department wildlife,['nevada'],ndow.org,Nevada Department of Wildlife -- Note added 1/27/14 20:15
 department wildlife,['nevada'],ndowlicensing.com,Nevada Department of Wildlife (NDOW) Licensing -- Note added 10/21/13 11:53
-north dakota,[],ndrin.org,North Dakota Recorders Information Network -- Note added 7/21/14 6:33
-travel tourism,[],ndtourism.com,Travel and Tourism Site for North Dakota -- Note added 6/6/13 19:42
+north dakota,['north dakota'],ndrin.org,North Dakota Recorders Information Network -- Note added 7/21/14 6:33
+travel tourism,['north dakota'],ndtourism.com,Travel and Tourism Site for North Dakota -- Note added 6/6/13 19:42
 Unknown,['nebraska'],ne-ethanol.org,Nebraska Ethanol Board -- Note added 12/6/13 19:53
 Unknown,['nebraska'],neagrelations.org,Nebraska AgRelations Council -- Note added 12/6/13 19:45
 Unknown,['nebraska'],neatp.org,Nebraska Association of Transportation Providers -- Note added 12/6/13 20:02
@@ -520,31 +520,31 @@ economic development,['nebraska'],neded.org,Nebraska Department of Economic Deve
 Unknown,['nebraska'],nelottery.com,Nebraska Lottery -- Note added 6/12/13 14:18
 department transportation,['nevada'],nevadadot.com,Nevada Department of Transportation -- Note added 6/26/13 15:23
 Unknown,['nevada'],nevadajudiciary.us,The Nevada Judiciary -- Note added 1/24/14 13:06
-travel tourism,[],newmexico.org,Travel and Tourism Site for New Mexico -- Note added 6/6/13 19:42
+travel tourism,['new mexico'],newmexico.org,Travel and Tourism Site for New Mexico -- Note added 6/6/13 19:42
 economic development,['pennsylvania'],newpa.com,Pennsylvania Department of Community & Economic Development -- Note added 6/6/13 18:08
 forest service,['nebraska'],nfs.unl.edu,Nebraska Forest Service -- Note added 12/6/13 19:55
 historical society,[],nhhistory.org,NH Historical Society -- Note added 9/2/15 19:01
 Unknown,[],nhlgc.org,NH Municipal Association -- Note added 9/2/15 19:02
-Unknown,[],nhlottery.org,New Hampshire Lottery Commission -- Note added 6/12/13 14:19
+Unknown,['new hampshire'],nhlottery.org,New Hampshire Lottery Commission -- Note added 6/12/13 14:19
 nh state,[],nhstateparks.org,NH State Parks -- Note added 9/2/15 19:03
-new jersey,[],njeda.com,New Jersey Economic Development Authority -- Note added 9/16/15 15:52
+new jersey,['new jersey'],njeda.com,New Jersey Economic Development Authority -- Note added 9/16/15 15:52
 fish wildlife,[],njfishandwildlife.com,"Division of Fish and Wildlife, NJ Department of Environmental Protection -- Note added 6/7/13 11:33"
-new jersey,[],njstatelib.org,New Jersey State Library -- Note added 7/26/13 16:17
-new jersey,[],njsurcharge.com,New Jersey Surcharge Violation System (NJSVS) -- Note added 9/16/15 15:53
+new jersey,['new jersey'],njstatelib.org,New Jersey State Library -- Note added 7/26/13 16:17
+new jersey,['new jersey'],njsurcharge.com,New Jersey Surcharge Violation System (NJSVS) -- Note added 9/16/15 15:53
 department labor,[],njuifile.net,Department of Labor and Workforce Development   -- Note added 9/16/15 15:53
-new mexico,[],nmlottery.com,New Mexico Lottery -- Note added 6/12/13 14:20
-new mexico,[],nmtracking.org,New Mexico Environmental Public Health Tracking -- Note added 10/24/14 12:11
-new mexico,[],nmwic.org,"Special Supplemental Nutrition Program for New Mexico Women, Infants & Children -- Note added 1/10/14 19:17"
+new mexico,['new mexico'],nmlottery.com,New Mexico Lottery -- Note added 6/12/13 14:20
+new mexico,['new mexico'],nmtracking.org,New Mexico Environmental Public Health Tracking -- Note added 10/24/14 12:11
+new mexico,['new mexico'],nmwic.org,"Special Supplemental Nutrition Program for New Mexico Women, Infants & Children -- Note added 1/10/14 19:17"
 "branch ,",[],nutritionnc.com,"Nutrition Services Branch, Women's and Children's Health, NC Division of Public Health, NCDepartment of Health and Human Services  -- Note added 3/20/14 16:33"
 disability services,['nevada'],nvaging.net,"Aging and Disability Services Division, Department of Health and Human Services, State of Nevada -- Note added 6/17/13 15:40"
-new york,[],nycom.org,New York State Conference of Mayors and Municipal Officials (NYCOM) -- Note added 7/2/15 10:49
-new york,[],nyhistory.org,New York Historical Society Museum and Library -- Note added 7/2/15 10:50
-new york,[],nysca.org,New York State Council on the Arts -- Note added 7/2/15 10:51
-new york,[],nysegov.com,New York State eGovernment listing of state agencies -- Note added 9/25/13 15:35
-new york,[],nysfair.org,New York State Fair -- Note added 6/12/13 18:48
-new york,[],nyshcr.org,New York State Homes and Community Renewal -- Note added 9/9/15 13:48
-new york,[],nyslgitda.org,New York State Local Government IT Directors Association (NYSLGITDA) -- Note added 7/2/15 10:59
-new york,[],nytrooper.com,New York State Police Recruitment Center -- Note added 1/3/14 13:14
+new york,['new york'],nycom.org,New York State Conference of Mayors and Municipal Officials (NYCOM) -- Note added 7/2/15 10:49
+new york,['new york'],nyhistory.org,New York Historical Society Museum and Library -- Note added 7/2/15 10:50
+new york,['new york'],nysca.org,New York State Council on the Arts -- Note added 7/2/15 10:51
+new york,['new york'],nysegov.com,New York State eGovernment listing of state agencies -- Note added 9/25/13 15:35
+new york,['new york'],nysfair.org,New York State Fair -- Note added 6/12/13 18:48
+new york,['new york'],nyshcr.org,New York State Homes and Community Renewal -- Note added 9/9/15 13:48
+new york,['new york'],nyslgitda.org,New York State Local Government IT Directors Association (NYSLGITDA) -- Note added 7/2/15 10:59
+new york,['new york'],nytrooper.com,New York State Police Recruitment Center -- Note added 1/3/14 13:14
 Unknown,[],occeweb.com,OK Corporation Commission -- Note added 8/28/15 18:20
 . ',[],oha.org,"Office of Hawaiian Affairs - 'Under the direction of nine trustees elected statewide, OHA has functioned operationally as both a government agency with a strong degree of autonomy, and as a trust.' -- Note added 6/12/13 13:27"
 workers ',['ohio'],ohiobwc.com,Ohio Bureau of Workers' Compensation -- Note added 3/26/14 18:21
@@ -558,7 +558,7 @@ human services,[],okdhs.org,OK dept of human services -- Note added 8/28/15 18:2
 Unknown,[],oklpgas.org,OK LP Gas commission -- Note added 8/28/15 18:22
 Unknown,['virginia'],olmsteadva.com,State of Virginia Olmstead Initiative -- Note added 8/27/15 14:13
 Unknown,['ohio'],omlohio.org,Ohio Municipal League -- Note added 3/26/14 18:40
-north carolina,[],onencnaturally.org,"Office of Land and Water Stewardship, a non-regulatory division within North Carolina's DENR that provides information and assistance to support effective conservation and resilient communities.  -- Note added 11/12/15 12:36"
+north carolina,['north carolina'],onencnaturally.org,"Office of Land and Water Stewardship, a non-regulatory division within North Carolina's DENR that provides information and assistance to support effective conservation and resilient communities.  -- Note added 11/12/15 12:36"
 arts commission,['oregon'],oregonartscommission.org,Oregon Arts Commission -- Note added 6/20/14 7:34
 governor 's,['oregon'],oregonfilm.org,Oregon Governor's Office of Film and Television -- Note added 3/20/14 16:53
 Unknown,['oregon'],oregonlottery.org,Oregon Lottery -- Note added 6/12/13 14:22
@@ -567,7 +567,7 @@ information network,['oklahoma'],origins.ou.edu,"The Oklahoma Resources Integrat
 office state,['kansas'],osbckansas.org,Office of the State Bank Commissioner of Kansas -- Note added 7/10/14 6:29
 ok state,[],oscn.net,OK State Court System -- Note added 8/28/15 18:23
 office state,['maryland'],ospmd.org,Office of the Maryland State Prosecutor -- Note added 5/27/14 3:40
-north carolina,[],p2pays.org,North Carolina Division of Environmental Assistance and Customer Service   -- Note added 9/15/15 17:43
+north carolina,['north carolina'],p2pays.org,North Carolina Division of Environmental Assistance and Customer Service   -- Note added 9/15/15 17:43
 Unknown,['pennsylvania'],pacast.com,Commonwealth of Pennsylvania's media hub -- Note added 6/6/13 18:08
 Unknown,['pennsylvania'],pacourts.us,Unified Judicial System of Pennsylvania -- Note added 1/10/14 15:20
 Unknown,[],paehealth.com,PA eHealth Partnership Authority -- Note added 6/7/13 11:53
@@ -575,7 +575,7 @@ Unknown,[],paehealth.com,PA eHealth Partnership Authority -- Note added 6/7/13 1
 national government,[],palaugov.org,Republic of Palau National Government -- Note added 6/7/13 18:27
 Unknown,[],palausupremecourt.net,Palau Judiciary Branch -- Note added 5/27/14 15:03
 state defense,['georgia'],paonews.net,Georgia State Defense Force public affairs office. Website mirrored on gasdf.com. Referenced on https://ga.ng.mil/Leadership/Georgia-State-Defense-Force/.
-south dakota,[],parkswildlifefoundation.org,South Dakota Parks & Wildlife Foundation -- Note added 7/17/14 5:50
+south dakota,['south dakota'],parkswildlifefoundation.org,South Dakota Parks & Wildlife Foundation -- Note added 7/17/14 5:50
 pa state,[],passhe.edu,PA State System of Higher Education -- Note added 6/7/13 11:53
 Unknown,[],patientsafetyauthority.org,PA Patient Safety Authority -- Note added 6/7/13 11:53
 Unknown,['pennsylvania'],paturnpike.com,Pennsylvania Turnpike Commission -- Note added 10/1/14 18:05
@@ -584,11 +584,11 @@ pa higher,[],pheaa.org,PA Higher Education Assistance Agency -- Note added 6/7/1
 pa higher,[],phefa.org,PA Higher Educational Facilities Authority -- Note added 6/7/13 11:53
 housing finance,[],phfa.org,PA Housing Finance Agency -- Note added 6/7/13 11:53
 pat harrison,['mississippi'],phwd.net,"Pat Harrison Waterway District (PHWD), a Mississippi State Agency that provides camping, cabins and recreational facilities in Mississippi -- Note added 1/13/14 20:28"
-south carolina,[],port-of-charleston.com,South Carolina Ports Authority -- Note added 6/6/13 18:08
+south carolina,['south carolina'],port-of-charleston.com,South Carolina Ports Authority -- Note added 6/6/13 18:08
 Unknown,['virginia'],portofvirginia.com,The Port of Virginia -- Note added 7/14/14 17:09
 potato commission,['washington'],potatoes.com,Washington State Potato Commission -- Note added 11/17/14 7:11
 "commission ,",['alabama'],preserveala.org,"Alabama Historical Commission, State of Alabama Historic Preservation Office -- Note added 7/15/13 18:19"
-http :,[],qaronline.org,"Queen Anne's Revenge, a project of the http://www.qaronline.org/ North Carolina Department of Cultural Resources to educate the next generation on colonial life -- Note added 11/20/13 17:34"
+http :,['north carolina'],qaronline.org,"Queen Anne's Revenge, a project of the http://www.qaronline.org/ North Carolina Department of Cultural Resources to educate the next generation on colonial life -- Note added 11/20/13 17:34"
 "fund ,",['maryland'],qis.net/~uef,"Uninsured Employers' Fund, State of Maryland -- Note added 11/20/13 17:37"
 ok state,[],rd.okstate.edu,OK State AG Econ at OSU -- Note added 8/28/15 18:25
 "nc ,",[],readync.org,"Ready NC, NC Department of Public Safety -- Note added 1/14/14 14:35"
@@ -596,17 +596,17 @@ ok state,[],rd.okstate.edu,OK State AG Econ at OSU -- Note added 8/28/15 18:25
 Unknown,['washington'],red-raspberry.org,Washington Red Raspberry Commission -- Note added 11/17/14 7:07
 state board,[],refrigerationboard.org,The State Board of Refrigeration Examiners -- Note added 9/15/15 17:47
 division vocational,['florida'],rehabworks.org,Division of Vocational Rehabilitation - Florida Department of Education -- Note added 7/1/15 18:43
-rhode island,[],ricwfa.com,Rhode Island Clean Water Finance Agency -- Note added 1/27/14 19:35
-rhode island,[],riinspection.org,Rhode Island Emissions and Safety Testing -- Note added 1/7/14 18:45
-rhode island,[],rilot.com,Rhode Island Lottery -- Note added 6/7/13 18:46
-rhode island,[],ripuc.org,Rhode Island Public Utilities Commission -- Note added 1/29/14 15:24
-rhode island,[],ritba.org,Rhode Island Turnpike and Bridge Authority -- Note added 1/27/14 15:54
+rhode island,['rhode island'],ricwfa.com,Rhode Island Clean Water Finance Agency -- Note added 1/27/14 19:35
+rhode island,['rhode island'],riinspection.org,Rhode Island Emissions and Safety Testing -- Note added 1/7/14 18:45
+rhode island,['rhode island'],rilot.com,Rhode Island Lottery -- Note added 6/7/13 18:46
+rhode island,['rhode island'],ripuc.org,Rhode Island Public Utilities Commission -- Note added 1/29/14 15:24
+rhode island,['rhode island'],ritba.org,Rhode Island Turnpike and Bridge Authority -- Note added 1/27/14 15:54
 "president ,",[],rmi-op.net,"Office of the President, Republic of the Marshall Islands -- Note added 6/12/13 13:31"
 state fund,['montana'],safemt.com,"SafeMT, a resource of the Montana State Fund for safety in Montana's workplaces. -- Note added 11/18/13 16:35"
 Unknown,[],safesurrender.net,NC Safe Haven Law - Abandoned Infant Protection Law Site -- Note added 9/15/15 17:54
 ") ,",['virginia'],sahp.vcu.edu/vcoa,"The website of the Virginia Center on Aging (VCoA), a statewide agency created by the Virginia General Assembly and housed at Virginia Commonwealth University in the School of Allied Health Professions. VCoA works to protect and improve the quality of life of older Virginians, so that they might remain interdependent and contributing members to life in Virginia. -- Note added 6/27/14 14:23"
-south carolina,[],santeecooper.com,"Santee Cooper, also known officially from the 1930s as the South Carolina Public Service Authority, is South Carolina's state-owned electric and water utility that came into being during the New Deal. -- Note added 8/25/14 16:04"
-new mexico,[],saonm.org,New Mexico Office of the State Auditor -- Note added 7/16/14 5:38
+south carolina,['south carolina'],santeecooper.com,"Santee Cooper, also known officially from the 1930s as the South Carolina Public Service Authority, is South Carolina's state-owned electric and water utility that came into being during the New Deal. -- Note added 8/25/14 16:04"
+new mexico,['new mexico'],saonm.org,New Mexico Office of the State Auditor -- Note added 7/16/14 5:38
 Unknown,[],savewaternc.org,Save Water NC -- Note added 11/12/15 12:34
 state board,['florida'],sbafla.com,"Florida State Board of Administration, created by the Florida Constitution and is governed by a three-member Board of Trustees (Trustees), comprised of the Governor as Chair, the Chief Financial Officer and the Attorney General. -- Note added 8/25/14 16:59"
 state board,['washington'],sbctc.ctc.edu,Washington State Board for Community and Technical Colleges -- Note added 4/8/14 18:22
@@ -614,43 +614,43 @@ state board,['washington'],sbctc.ctc.edu,Washington State Board for Community an
 Unknown,[],sccommerce.com,SC dept of commerce -- Note added 8/28/15 15:19
 Unknown,[],sccourts.org,SC judicial courts -- Note added 8/28/15 15:19
 Unknown,[],scdmvonline.com,SC DMV -- Note added 8/28/15 15:20
-south carolina,[],sceducationlottery.com,South Carolina Education Lottery -- Note added 6/12/13 14:24
-south carolina,[],scemd.org,South Carolina Emergency Management Division -- Note added 8/28/15 15:20
+south carolina,['south carolina'],sceducationlottery.com,South Carolina Education Lottery -- Note added 6/12/13 14:24
+south carolina,['south carolina'],scemd.org,South Carolina Emergency Management Division -- Note added 8/28/15 15:20
 Unknown,[],scfirststeps.org,SC early childhood education program -- Note added 8/28/15 15:20
 Unknown,[],scgovernorsmansion.org,SC Gov Mansion  -- Note added 8/28/15 15:23
 Unknown,[],scgssm.org,SC govoners school for science and math -- Note added 8/28/15 15:23
 national guard,[],scguard.com,SC National Guard -- Note added 8/28/15 15:24
 state council,['virginia'],schev.edu,"The State Council of Higher Education for Virginia (SCHEV) makes higher education public policy recommendations to the Governor and General Assembly in such areas as capital and operating budget planning, enrollment projections, institutional technology needs, and student financial aid. -- Note added 6/27/14 14:25"
-"section ,",[],schoolclearinghouse.org,"School Planning Section, North Carolina Department of Public Instruction -- Note added 8/25/14 15:01"
-south carolina,[],scilconline.org,South Carolina Independent Living Council (SCILC) -- Note added 9/22/15 15:16
-south carolina,[],scilconlineblog.org,South Carolina Independent Living Council (SCILC) -- Note added 9/22/15 15:17
-south carolina,[],scinbre.org,"The South Carolina EPSCoR/IDeA Program, CCCR COBRE, and the USC School of Medicine Instrumentation Resource Facility -- Note added 8/28/15 15:28"
+"section ,",['north carolina'],schoolclearinghouse.org,"School Planning Section, North Carolina Department of Public Instruction -- Note added 8/25/14 15:01"
+south carolina,['south carolina'],scilconline.org,South Carolina Independent Living Council (SCILC) -- Note added 9/22/15 15:16
+south carolina,['south carolina'],scilconlineblog.org,South Carolina Independent Living Council (SCILC) -- Note added 9/22/15 15:17
+south carolina,['south carolina'],scinbre.org,"The South Carolina EPSCoR/IDeA Program, CCCR COBRE, and the USC School of Medicine Instrumentation Resource Facility -- Note added 8/28/15 15:28"
 Unknown,[],scpcf.com,SC malpractice patient compensation fund -- Note added 8/28/15 15:27
-south carolina,[],scsdb.org,South Carolina School for the Deaf and Blind -- Note added 8/25/14 15:03
-south carolina,[],scsilc.com,South Carolina Statewide Independent Living Council (SILC) -- Note added 9/22/15 15:19
+south carolina,['south carolina'],scsdb.org,South Carolina School for the Deaf and Blind -- Note added 8/25/14 15:03
+south carolina,['south carolina'],scsilc.com,South Carolina Statewide Independent Living Council (SILC) -- Note added 9/22/15 15:19
 Unknown,[],scsos.com,SC sec of state -- Note added 8/28/15 15:29
-south carolina,[],sctax.org,South Carolina Department of Revenue -- Note added 8/25/14 15:04
-south carolina,[],sctuitiongrants.com,South Carolina Higher EducationTuition Grants Commission -- Note added 8/28/15 15:30
+south carolina,['south carolina'],sctax.org,South Carolina Department of Revenue -- Note added 8/25/14 15:04
+south carolina,['south carolina'],sctuitiongrants.com,South Carolina Higher EducationTuition Grants Commission -- Note added 8/28/15 15:30
 Unknown,[],scvotes.org,SC State Election Committee -- Note added 8/28/15 15:30
 Unknown,[],scvrd.net,SC Vocab Rehab -- Note added 8/28/15 15:31
-south dakota,[],sddot.com,South Dakota Department of Transportation -- Note added 7/17/14 5:53
-south dakota,[],sdhda.org,South Dakota Housing Development Authority -- Note added 7/17/14 5:54
-state employees,[],seanc.org,STATE EMPLOYEES ASSOCIATION OF NORTH CAROLINA -- Note added 9/15/15 17:56
+south dakota,['south dakota'],sddot.com,South Dakota Department of Transportation -- Note added 7/17/14 5:53
+south dakota,['south dakota'],sdhda.org,South Dakota Housing Development Authority -- Note added 7/17/14 5:54
+state employees,['north carolina'],seanc.org,STATE EMPLOYEES ASSOCIATION OF NORTH CAROLINA -- Note added 9/15/15 17:56
 http :,['michigan'],seekingmichigan.org,"Seeking Michigan, the online platform for the http://michigan.gov/mhc Michigan Historical Center. It includes http://www.michigan.gov/archivesofmi Archives of Michigan research guides and indexes, a blog, and educator resources&ndash;all from the Michigan Historical Center and Archives of Michigan staff. -- Note added 7/9/14 12:06"
 Unknown,['minnesota'],senate.mn,Minnesota Senate -- Note added 11/9/15 20:36
 department transportation,['arizona'],servicearizona.com,"Authorized Service Website for the Arizona Department of Transportation, Motor Vehicle Division -- Note added 1/10/14 19:17"
 state port,['mississippi'],shipmspa.com,Mississippi State Port Authority -- Note added 7/25/14 20:50
-north carolina,[],shpnc.org,North Carolina State Health Plan for Teachers and State Employees -- Note added 7/25/14 15:10
+north carolina,['north carolina'],shpnc.org,North Carolina State Health Plan for Teachers and State Employees -- Note added 7/25/14 15:10
 Unknown,[],sled.alaska.edu,SLED (Statewide Library Electronic Doorway) -- Note added 6/6/13 18:08
 public health,[],slph.ncpublichealth.com,"State Laboratory of Public Health, NC Division of Public Health -- Note added 7/26/13 15:11"
 ", va",['virginia'],smv.org,"Science Museum of Virginia, located in Richmond, VA -- Note added 7/11/14 18:43"
 secretary state,[],sosnc.com,NC Secretary Of State -- Note added 9/15/15 17:58
-south carolina,[],southcarolinaarts.com,south carolina arts commission -- Note added 8/28/15 15:32
-south carolina,[],southcarolinahistoricalsociety.org,south carolina historical society -- Note added 8/28/15 15:32
+south carolina,['south carolina'],southcarolinaarts.com,south carolina arts commission -- Note added 8/28/15 15:32
+south carolina,['south carolina'],southcarolinahistoricalsociety.org,south carolina historical society -- Note added 8/28/15 15:32
 pa state,[],spsba.org,PA State Public School Building Authority -- Note added 6/7/13 11:53
-susquehanna river,"['pennsylvania', 'maryland']",srbc.net,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. -- Note added 6/26/13 16:30"
-portal state,[],startsquad.org,"Start Squad, kid's portal to the State Library of North Carolina -- Note added 8/25/14 12:12"
-north carolina,[],startwithyourheart.com,North Carolina's Justus-Warren Heart Disease and Stroke Prevention Task Force -- Note added 11/10/15 20:35
+susquehanna river,"['pennsylvania', 'maryland', 'new york']",srbc.net,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. -- Note added 6/26/13 16:30"
+portal state,['north carolina'],startsquad.org,"Start Squad, kid's portal to the State Library of North Carolina -- Note added 8/25/14 12:12"
+north carolina,['north carolina'],startwithyourheart.com,North Carolina's Justus-Warren Heart Disease and Stroke Prevention Task Force -- Note added 11/10/15 20:35
 pattern include,['alaska'],state.ak.us,"*state.ak.us pattern to include Alaska state agencies, such as those at: https://www.google.com/#q=site:state.ak.us  -- Note added 7/8/14 12:25"
 pattern include,['alabama'],state.al.us,"*state.al.us pattern to include Alabama state agencies, such as those at: https://www.google.com/#q=site:state.al.us  -- Note added 7/8/14 12:26"
 state agencies,['arkansas'],state.ar.us,*state.ar.us pattern for State of Arkansas agencies -- Note added 7/17/13 19:01
@@ -673,13 +673,13 @@ state government,['minnesota'],state.mn.us,Minnesota.gov portal; 'electronic ent
 Unknown,['mississippi'],state.ms.us,State of Mississippi -- Note added 7/8/14 12:53
 pattern include,[],state.ne.us,*.state.ne.us pattern to include several state agencies. -- Note added 12/9/13 18:31
 nh state,[],state.nh.us,NH State Website -- Note added 9/2/15 19:11
-http :,[],state.nj.us,"http://www.state.nj.us/ and http://www.nj.gov both resolve to the same site. n*state.nj.us pattern to include New Jersey state agencies, such as those at: https://www.google.com/#q=site:state.nj.us  -- Note added 7/8/14 13:04"
-new mexico,[],state.nm.us,State of New Mexico -- Note added 7/16/14 5:42
+http :,['new jersey'],state.nj.us,"http://www.state.nj.us/ and http://www.nj.gov both resolve to the same site. n*state.nj.us pattern to include New Jersey state agencies, such as those at: https://www.google.com/#q=site:state.nj.us  -- Note added 7/8/14 13:04"
+new mexico,['new mexico'],state.nm.us,State of New Mexico -- Note added 7/16/14 5:42
 Unknown,['ohio'],state.oh.us,State of Ohio -- Note added 3/27/14 18:36
 Unknown,[],state.ok.us,State of OK website -- Note added 8/28/15 18:27
 http :,['oregon'],state.or.us,"http://www.state.or.us/ resolves to a non-styled version of http://www.oregon.gov/  n*state.or.us pattern included here to find State of Oregon agencies, such as: https://www.google.com/search?q=site:state.or.us -- Note added 7/17/14 17:40"
 Unknown,[],state.sc.us,State of SC  -- Note added 8/28/15 15:35
-south dakota,[],state.sd.us,South Dakota State Government Website -- Note added 7/17/14 6:01
+south dakota,['south dakota'],state.sd.us,South Dakota State Government Website -- Note added 7/17/14 6:01
 official site,['tennessee'],state.tn.us,Official site of the Tennessee Government -- Note added 6/26/14 13:27
 official website,['virginia'],state.va.us,The official website of the Commonwealth of Virginia -- Note added 6/27/14 14:50
 Unknown,['vermont'],state.vt.us,State of Vermont -- Note added 8/15/14 14:27
@@ -687,10 +687,10 @@ Unknown,['washington'],state.wa.us,State of Washington -- Note added 11/17/14 6:
 pattern included,[],state.wi.us,"*.state.wi.us pattern is included here for various Department-level agencies, such as those at: https://www.google.com/search?q=site%3Astate.wi.us  Requires 'www' to resolve. -- Note added 4/2/14 12:49"
 travel tourism,['wyoming'],state.wy.us,State of Wyoming travel and tourism website -- Note added 7/23/14 5:34
 state fair,['nebraska'],statefair.org,Nebraska State Fair -- Note added 12/6/13 19:53
-"president ,",[],statenislandusa.com,"Staten Island Borough President, New York, NY -- Note added 11/20/13 18:23"
+"president ,",['new york'],statenislandusa.com,"Staten Island Borough President, New York, NY -- Note added 11/20/13 18:23"
 nc division,[],surpluspropertydivision.com,NC Division of Surplus Property -- Note added 9/15/15 18:02
 Unknown,[],sustainablenc.org,NC sustainability connection -- Note added 9/15/15 18:06
-public schools,[],teach4nc.com,"Welcome to Teach4NC, dedicated to the recruitment of teaching professionals for public schools in North Carolina. -- Note added 9/15/15 18:19"
+public schools,['north carolina'],teach4nc.com,"Welcome to Teach4NC, dedicated to the recruitment of teaching professionals for public schools in North Carolina. -- Note added 9/15/15 18:19"
 Unknown,['tennessee'],tennesseeholocaustcommission.org,Tennessee Holocaust Commission -- Note added 6/26/14 7:22
 state bar,['texas'],texasbar.com,State Bar of Texas -- Note added 6/20/14 16:58
 Unknown,['tennessee'],tfli.org,Tennessee Foreign Language Institute -- Note added 6/26/14 7:21
@@ -709,7 +709,7 @@ travel tourism,['kansas'],travelks.com,Travel and Tourism Site for Kansas -- Not
 travel tourism,['nevada'],travelnevada.com,Travel and Tourism Sites for Nevada -- Note added 6/6/13 19:11
 travel tourism,['oklahoma'],travelok.com,Travel and Tourism Sites for Oklahoma -- Note added 6/6/13 19:11
 travel tourism,['oregon'],traveloregon.com,"Travel and Tourism Site for Oregon, Oregon Tourism Commission -- Note added 7/23/14 16:09"
-travel tourism,[],travelsd.com,Travel and Tourism Sites for South Dakota -- Note added 6/6/13 19:11
+travel tourism,['south dakota'],travelsd.com,Travel and Tourism Sites for South Dakota -- Note added 6/6/13 19:11
 travel tourism,['texas'],traveltex.com,Travel and Tourism Sites for Texas -- Note added 6/6/13 19:11
 travel tourism,['wisconsin'],travelwisconsin.com,Travel and Tourism Sites for Wisconsin -- Note added 6/6/13 19:11
 state treasurer,['nebraska'],treasurer.org,Nebraska State Treasurer -- Note added 12/6/13 20:03
@@ -719,10 +719,10 @@ Unknown,['texas'],txlottery.org,Texas Lottery -- Note added 6/12/13 14:26
 ", division",['arkansas'],uaex.edu,"University of Arkansas, Division of AgricultureResearch & Extension, University of Arkansas System Arkansas Cooperative Extension Service -- Note added 12/10/14 7:11"
 cooperative extension,['alaska'],uaf.edu/ces/,University of Alaska Fairbanks Cooperative Extension Service -- Note added 6/7/13 16:34
 university extension,['idaho'],uidaho.edu/extension,University of Idaho Extension -- Note added 7/8/13 14:29
-u.s. virgin,[],usviber.org,U.S. Virgin Islands Bureau of Economic Research -- Note added 8/18/14 14:14
-u.s. virgin,[],usvieda.org,U.S. Virgin Islands Economic Development Authority -- Note added 8/18/14 14:12
+u.s. virgin,['virgin islands'],usviber.org,U.S. Virgin Islands Bureau of Economic Research -- Note added 8/18/14 14:14
+u.s. virgin,['virgin islands'],usvieda.org,U.S. Virgin Islands Economic Development Authority -- Note added 8/18/14 14:12
 university extension,['vermont'],uvm.edu/extension,University of Vermont Extension -- Note added 8/18/14 5:33
-Unknown,[],uwex.edu,University of Wisconsin-Extension -- Note added 8/12/14 5:36
+Unknown,['wisconsin'],uwex.edu,University of Wisconsin-Extension -- Note added 8/12/14 5:36
 university cooperative,['wyoming'],uwyo.edu/CES,University of Wyoming Cooperative Extension Service -- Note added 7/23/14 5:39
 council (,['virginia'],va-src.org,Virginia State Rehabilitation Council (SRC) -- Note added 8/27/15 14:12
 state local,['virginia'],vaao.org,"The Virginia Association of Assessing Officers is a professional organization of assessors and appraisers from state and local governments throughout the Commonwealth. The organization's mission is to improve assessment standards, disseminate information on assessment practices, and provide continuing education to its members. -- Note added 7/11/14 18:56"
@@ -738,7 +738,7 @@ assistive technology,['virginia'],vats.org,Virginia Assistive Technology System 
 throughout commonwealth,['virginia'],vcef.net,Virginia Career Education Foundation is a non-profit organization that works to increase the number of qualified applicants available to fill technical positions throughout the Commonwealth of Virginia. -- Note added 7/11/14 19:07
 blind vision,['virginia'],vdbvi.org,Virginia Department for the Blind and Vision Impaired -- Note added 7/11/14 19:09
 Unknown,['virginia'],vddhh.org,Virginia Department for the Deaf and Hard of Hearing (VDDHH) -- Note added 7/11/14 19:09
-state north,[],vendor.ncgov.com,State of North Carolina's Vendor Registration -- Note added 1/14/14 13:04
+state north,['north carolina'],vendor.ncgov.com,State of North Carolina's Vendor Registration -- Note added 1/14/14 13:04
 arts council,['vermont'],vermontartscouncil.org,Vermont Arts Council -- Note added 8/18/14 5:35
 historical society,['vermont'],vermonthistory.org,Vermont Historical Society -- Note added 8/18/14 5:36
 travel tourism,['vermont'],VermontVacation.com,Travel and Tourism Site for Vermont -- Note added 6/6/13 19:19
@@ -746,9 +746,9 @@ housing development,['virginia'],vhda.com,Virginia Housing Development Authority
 housing finance,['vermont'],vhfa.org,Vermont Housing Finance Agency -- Note added 8/18/14 5:37
 horse industry,['virginia'],vhib.org,The Virginia Horse Industry Board is responsible for the promotion and economic development of the horse industry in Virginia and operates through the Virginia Department of Agriculture and Consumer Services. -- Note added 7/11/14 19:12
 industries blind,['virginia'],vibonline.org,"Virginia Industries for the Blind, Commonwealth of Virginia -- Note added 9/3/15 11:46"
-virgin islands,[],vide.vi,Virgin Islands Department of Education -- Note added 8/18/14 14:08
-virgin islands,[],viig.org,Office of the Virgin Islands Inspector General -- Note added 8/18/14 14:13
-u.s. virgin,[],vipd.gov.vi,U.S. Virgin Islands Police Department -- Note added 8/18/14 14:16
+virgin islands,['virgin islands'],vide.vi,Virgin Islands Department of Education -- Note added 8/18/14 14:08
+virgin islands,['virgin islands'],viig.org,Office of the Virgin Islands Inspector General -- Note added 8/18/14 14:13
+u.s. virgin,['virgin islands'],vipd.gov.vi,U.S. Virgin Islands Police Department -- Note added 8/18/14 14:16
 travel tourism,['virginia'],virginia.org,Travel and Tourism Sites for Virginia -- Note added 6/6/13 19:11
 college savings,['virginia'],virginia529.com,Virginia College Savings Plan -- Note added 7/11/14 19:18
 economic development,['virginia'],virginiaallies.org,Virginia Economic Development Partnership's Ally Information Exchange -- Note added 7/11/14 20:17
@@ -765,18 +765,18 @@ travel tourism,['maryland'],visitmaryland.org,Travel and Tourism Site for Maryla
 travel tourism,['mississippi'],visitmississippi.org,Travel and Tourism Sites for Mississippi -- Note added 6/6/13 19:11
 travel tourism,['missouri'],visitmo.com,Travel and Tourism Site for Missouri -- Note added 6/6/13 19:34
 travel tourism,['montana'],visitmt.com,Travel and Tourism Site for Montana -- Note added 6/6/13 19:33
-travel tourism,[],visitnc.com,Travel and Tourism Site for North Carolina -- Note added 6/6/13 19:33
+travel tourism,['north carolina'],visitnc.com,Travel and Tourism Site for North Carolina -- Note added 6/6/13 19:33
 travel tourism,['nebraska'],visitnebraska.com,Travel and Tourism Site for Nebraska -- Note added 6/6/13 19:33
 travel tourism,['pennsylvania'],visitpa.com,Travel and Tourism Site for Pennsylvania -- Note added 6/6/13 19:32
-travel tourism,[],visitrhodeisland.com,Travel and Tourism Site for Rhode Island -- Note added 6/6/13 19:32
-travel tourism,[],visitusvi.com,Travel and tourism site for the US Virgin Islands -- Note added 6/6/13 19:47
+travel tourism,['rhode island'],visitrhodeisland.com,Travel and Tourism Site for Rhode Island -- Note added 6/6/13 19:32
+travel tourism,['virgin islands'],visitusvi.com,Travel and tourism site for the US Virgin Islands -- Note added 6/6/13 19:47
 travel tourism,['utah'],visitutah.com,Travel and Tourism Site for Utah -- Note added 6/6/13 19:31
-supreme court,[],visupremecourt.org,Supreme Court of the United States Virgin Islands -- Note added 8/18/14 14:06
+supreme court,['virgin islands'],visupremecourt.org,Supreme Court of the United States Virgin Islands -- Note added 8/18/14 14:06
 department state,['florida'],vivaflorida.org,"Viva Florida 500 is a statewide initiative led by the Florida Department of State, under the leadership of Governor Rick Scott, to highlight the 500 years of historic people, places and events in present-day Florida since the arrival of Juan Ponce de Leon to the land he named La Florida in 1513. See more at http://www.vivaflorida.org/About-Viva-Florida/ -- Note added 7/23/14 14:01"
 museum natural,['virginia'],vmnh.net,"Virginia Museum of Natural History in Martinsville, VA -- Note added 7/11/14 20:20"
 governor 's,['florida'],volunteerflorida.org,Florida Governor's Commission on Volunteerism and Community Service -- Note added 11/9/15 19:00
 Unknown,['mississippi'],volunteermississippi.org,"Volunteer Mississippi, A Mississippi Commission for Volunteer Service (MCVS) -- Note added 7/28/14 14:58"
-north carolina,[],volunteernc.org,North Carolina Commission on Volunteerism and Community Service -- Note added 11/10/15 20:34
+north carolina,['north carolina'],volunteernc.org,North Carolina Commission on Volunteerism and Community Service -- Note added 11/10/15 20:34
 blind vision,['virginia'],vrcbvi.org,Virginia Rehabilitation Center for the Blind and Vision Impaired -- Note added 8/27/15 15:09
 Unknown,['virginia'],vrwa.org,Virginia Rural Water Association -- Note added 7/23/13 19:42
 state bar,['virginia'],vsb.org,Virginia State Bar -- Note added 7/11/14 20:21
@@ -786,23 +786,23 @@ Unknown,['washington'],wablueberrycomm.org,Washington Blueberry Commission -- No
 Unknown,['washington'],wahardwoodscomm.com,Washington Hardwoods Commission -- Note added 11/12/14 6:29
 state lottery,['washington'],walottery.com,Washington State Lottery -- Note added 12/2/14 7:23
 potato commission,['washington'],waseedpotato.com,Washington State Seed Potato Commission -- Note added 11/12/14 6:26
-travel tourism,[],washington.org,Travel and Tourism Site for the District of Columbia -- Note added 6/6/13 19:31
+travel tourism,['district of columbia'],washington.org,Travel and Tourism Site for the District of Columbia -- Note added 6/6/13 19:31
 national guard,['washington'],washingtonairguard.org,Washington Air National Guard -- Note added 1/3/14 13:08
 army national,['washington'],washingtonarmyguard.org,Washington Army National Guard -- Note added 1/23/14 14:03
 national guard,['washington'],washingtonguard.org,Washington National Guard -- Note added 1/23/14 14:03
 Unknown,['washington'],washingtonwine.org,Washington State Wine Commission -- Note added 11/12/14 6:23
 Unknown,['washington'],waspc.org,Washington Association of Sheriffs and Police Chiefs -- Note added 11/12/14 6:22
 ", website",['mississippi'],waterparkin.com,"Waterparkin', a website of the Pat Harrison Waterway District (PHWD) a Mississippi State Agency that provides camping, cabins and recreational facilities in Mississippi. See historical snaphot at: http://web.archive.org/web/20101224004547/http://waterparkin.com/  -- Note added 1/13/14 20:28"
-north carolina,[],waywelivednc.com,"The Way We Lived in North Carolina, presented by http://www.ah.dcr.state.nc.us/ The North Carolina Office of Archives & History. -- Note added 8/13/14 17:41"
+north carolina,['north carolina'],waywelivednc.com,"The Way We Lived in North Carolina, presented by http://www.ah.dcr.state.nc.us/ The North Carolina Office of Archives & History. -- Note added 8/13/14 17:41"
 state department,['wisconsin'],wdfi.org,State of Wisconsin Department of Financial Institutions -- Note added 8/11/14 5:34
-rhode island,[],web.uri.edu/riaes/extension,University of Rhode Island Cooperative Extension -- Note added 6/7/13 18:31
+rhode island,['rhode island'],web.uri.edu/riaes/extension,University of Rhode Island Cooperative Extension -- Note added 6/7/13 18:31
 economic development,['washington'],wedfa.org,Washington Economic Development Finance Authority -- Note added 11/12/14 6:21
 women 's,[],whb.ncpublichealth.com,"Women's Health Branch, NC Division of Public Health -- Note added 7/26/13 15:11"
 economic development,['wisconsin'],wheda.com,Wisconsin Housing and Economic Development Authority -- Note added 8/11/14 5:30
 higher education,['washington'],whefa.org,Washington Higher Education Facilities Authority -- Note added 4/8/14 18:33
 department wildlife,['oklahoma'],wildlifedepartment.com,Oklahoma Department of Wildlife Conservation - http://www.wildlifedepartment.com/  -- Note added 10/29/13 15:11
 Unknown,['wisconsin'],wilottery.com,Wisconsin Lottery -- Note added 6/12/13 14:28
-virgin islands,[],winusvilottery.com,Virgin Islands Lottery -- Note added 6/12/13 14:29
+virgin islands,['virgin islands'],winusvilottery.com,Virgin Islands Lottery -- Note added 6/12/13 14:29
 historical society,['wisconsin'],wisconsinhistory.org,Wisconsin Historical Society -- Note added 8/11/14 5:26
 state public,['wisconsin'],wisspd.org,Wisconsin State Public Defender's Office -- Note added 6/14/13 17:38
 Unknown,['wisconsin'],wrdaonline.org,Register of Deeds Association of Wisconsin -- Note added 8/11/14 5:23
@@ -811,20 +811,20 @@ convention center,['washington'],wscc.com,Washington State Convention Center -- 
 state commission,['washington'],wscpr.org,Washington State Commission on Pesticide Registration -- Note added 11/6/14 7:32
 state housing,['washington'],wshfc.org,Washington State Housing Finance Commission -- Note added 11/6/14 7:27
 school blind,['washington'],wssb.org,Washington State School for the Blind -- Note added 7/31/13 16:31
-west department,['virginia'],wvagriculture.org,West Virginia Department of Agriculture -- Note added 3/31/14 13:07
-west department,['virginia'],wvcommerce.org,West Virginia Department of Commerce -- Note added 3/24/14 16:50
-Unknown,['virginia'],wvculture.org,West Virginia Division of Culture and History -- Note added 3/31/14 13:08
-west department,['virginia'],wvdhhr.org,West Virginia Department of Health and Human Resources -- Note added 7/24/14 5:50
-housing development,['virginia'],wvhdf.com,West Virginia Housing Development Fund -- Note added 7/24/14 5:51
-higher education,['virginia'],wvhepc.com,West Virginia Higher Education Policy Commission -- Note added 3/31/14 13:12
-west department,['virginia'],wvlabor.com,"West Virginia Department of Commerce, Division of Labor -- Note added 7/24/14 5:52"
-Unknown,['virginia'],wvlottery.com,West Virginia Lottery -- Note added 6/12/13 14:29
-Unknown,['virginia'],wvnet.edu,West Virginia Network for Educational Telecomputing -- Note added 7/24/14 5:54
-Unknown,['virginia'],wvretirement.com,West Virginia Consolidated Public Retirement Board -- Note added 3/31/14 13:33
-west state,['virginia'],wvstateparks.com,West Virginia State Parks -- Note added 3/31/14 13:34
-west state,['virginia'],wvsto.com,West Virginia State Treasurer's Office -- Note added 3/31/14 13:35
-travel tourism,['virginia'],wvtourism.com,Travel and Tourism Site for West Virginia -- Note added 6/6/13 19:18
-development authority,['virginia'],wvwda.org,West Virginia Water Development Authority -- Note added 7/24/14 5:57
+west department,"['virginia', 'west virginia']",wvagriculture.org,West Virginia Department of Agriculture -- Note added 3/31/14 13:07
+west department,"['virginia', 'west virginia']",wvcommerce.org,West Virginia Department of Commerce -- Note added 3/24/14 16:50
+Unknown,"['virginia', 'west virginia']",wvculture.org,West Virginia Division of Culture and History -- Note added 3/31/14 13:08
+west department,"['virginia', 'west virginia']",wvdhhr.org,West Virginia Department of Health and Human Resources -- Note added 7/24/14 5:50
+housing development,"['virginia', 'west virginia']",wvhdf.com,West Virginia Housing Development Fund -- Note added 7/24/14 5:51
+higher education,"['virginia', 'west virginia']",wvhepc.com,West Virginia Higher Education Policy Commission -- Note added 3/31/14 13:12
+west department,"['virginia', 'west virginia']",wvlabor.com,"West Virginia Department of Commerce, Division of Labor -- Note added 7/24/14 5:52"
+Unknown,"['virginia', 'west virginia']",wvlottery.com,West Virginia Lottery -- Note added 6/12/13 14:29
+Unknown,"['virginia', 'west virginia']",wvnet.edu,West Virginia Network for Educational Telecomputing -- Note added 7/24/14 5:54
+Unknown,"['virginia', 'west virginia']",wvretirement.com,West Virginia Consolidated Public Retirement Board -- Note added 3/31/14 13:33
+west state,"['virginia', 'west virginia']",wvstateparks.com,West Virginia State Parks -- Note added 3/31/14 13:34
+west state,"['virginia', 'west virginia']",wvsto.com,West Virginia State Treasurer's Office -- Note added 3/31/14 13:35
+travel tourism,"['virginia', 'west virginia']",wvtourism.com,Travel and Tourism Site for West Virginia -- Note added 6/6/13 19:18
+development authority,"['virginia', 'west virginia']",wvwda.org,West Virginia Water Development Authority -- Note added 7/24/14 5:57
 army national,['montana'],www.montanaguard.com/,Montana Army National Guard -- Note added 3/2/15 6:52
 Unknown,['wyoming'],wyomingbusiness.org,Wyoming Business Council -- Note added 6/7/13 16:41
 travel tourism,['wyoming'],wyomingtourism.org,Travel and Tourism Site for Wyoming -- Note added 6/6/13 19:31

@@ -73,8 +73,13 @@ def determine_sector(note, state_names, stop_words, sector_keywords):
     return 'Unknown'
 
 def extract_states_from_text(text, state_names):
-    tokens = word_tokenize(text.lower())
-    return list({token for token in tokens if token in state_names})
+    text = text.lower()
+    found_states = set()
+    for state in state_names:
+        #multi-word state names
+        if re.search(r'\b' + re.escape(state) + r'\b', text):
+            found_states.add(state)
+    return list(found_states)
 
 def process_notes(df, state_names, stop_words, sector_keywords):
     df['Sector'] = df['Note'].apply(lambda x: determine_sector(x, state_names, stop_words, sector_keywords))
