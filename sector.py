@@ -68,20 +68,21 @@ def determine_sector(note, stop_words, sector_keywords, state_names):
     return 'Unknown'
 
 def extract_states_from_text(text, state_names):
-    """Extract state names mentioned in a given text."""
+    """Extract state names mentioned in a given text, prioritizing bigrams."""
     tokens = preprocess_text(text, [])
-    found_states = set()
-
-    for token in tokens:
-        if token.lower() in state_names:
-            found_states.add(token.lower())
-
+    
+    # Check for bigrams first
     bigrams = generate_ngrams(tokens, 2)
     for bigram in bigrams:
         if bigram.lower() in state_names:
-            found_states.add(bigram.lower())
+            return [bigram.lower()]
+    
+    # Check for single-word state names
+    for token in tokens:
+        if token.lower() in state_names:
+            return [token.lower()]
 
-    return list(found_states)
+    return []
 
 def process_notes(df, state_names, stop_words, sector_keywords):
     """Process notes in a DataFrame to determine sectors and states."""
