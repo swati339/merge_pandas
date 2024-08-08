@@ -1,8 +1,10 @@
 version: '3.8'
 
 services:
-  app:
+  flask-app:
     build: .
     volumes:
-      - .:/app
-    command: python /app/app.py
+      - ./app:/app
+    ports:
+      - "5000:5000"
+    
